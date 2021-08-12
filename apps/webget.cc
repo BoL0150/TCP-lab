@@ -5,7 +5,6 @@
 #include <iostream>
 
 using namespace std;
-
 void get_URL(const string &host, const string &path) {
     // Your code here.
 
@@ -13,12 +12,22 @@ void get_URL(const string &host, const string &path) {
     // the computer whose name is in the "host" string,
     // then request the URL path given in the "path" string.
 
+    TCPSocket sock;
+    sock.connect(Address(host,"80"));
+    std::string send,recv;
+    send="GET "+path+" HTTP/1.1\r\n"+"Host:"+host+"\r\n"+"Connection:close\r\n\r\n";
+    sock.write(send);
+    while(sock.eof()==false){
+        sock.read(recv);
+        std::cout<<recv;
+    }
+    sock.close();
+    
+
     // Then you'll need to print out everything the server sends back,
     // (not just one call to read() -- everything) until you reach
     // the "eof" (end of file).
 
-    cerr << "Function called: get_URL(" << host << ", " << path << ").\n";
-    cerr << "Warning: get_URL() has not been implemented yet.\n";
 }
 
 int main(int argc, char *argv[]) {
@@ -46,6 +55,7 @@ int main(int argc, char *argv[]) {
         cerr << e.what() << "\n";
         return EXIT_FAILURE;
     }
+    
 
     return EXIT_SUCCESS;
 }
