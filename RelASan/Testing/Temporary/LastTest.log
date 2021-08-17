@@ -1,0 +1,499 @@
+Start testing: Aug 17 18:40 CST
+----------------------------------------------------------
+15/166 Testing: t_strm_reassem_single
+15/166 Test: t_strm_reassem_single
+Command: "/home/bolee/cs144/sponge/RelASan/tests/fsm_stream_reassembler_single"
+Directory: /home/bolee/cs144/sponge/RelASan
+"t_strm_reassem_single" start time: Aug 17 18:40 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =  10.02 sec
+----------------------------------------------------------
+Test Failed.
+"t_strm_reassem_single" end time: Aug 17 18:40 CST
+"t_strm_reassem_single" time elapsed: 00:00:10
+----------------------------------------------------------
+
+16/166 Testing: t_strm_reassem_seq
+16/166 Test: t_strm_reassem_seq
+Command: "/home/bolee/cs144/sponge/RelASan/tests/fsm_stream_reassembler_seq"
+Directory: /home/bolee/cs144/sponge/RelASan
+"t_strm_reassem_seq" start time: Aug 17 18:40 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"t_strm_reassem_seq" end time: Aug 17 18:40 CST
+"t_strm_reassem_seq" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/166 Testing: t_strm_reassem_dup
+17/166 Test: t_strm_reassem_dup
+Command: "/home/bolee/cs144/sponge/RelASan/tests/fsm_stream_reassembler_dup"
+Directory: /home/bolee/cs144/sponge/RelASan
+"t_strm_reassem_dup" start time: Aug 17 18:40 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"t_strm_reassem_dup" end time: Aug 17 18:40 CST
+"t_strm_reassem_dup" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/166 Testing: t_strm_reassem_holes
+18/166 Test: t_strm_reassem_holes
+Command: "/home/bolee/cs144/sponge/RelASan/tests/fsm_stream_reassembler_holes"
+Directory: /home/bolee/cs144/sponge/RelASan
+"t_strm_reassem_holes" start time: Aug 17 18:40 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =  10.02 sec
+----------------------------------------------------------
+Test Failed.
+"t_strm_reassem_holes" end time: Aug 17 18:40 CST
+"t_strm_reassem_holes" time elapsed: 00:00:10
+----------------------------------------------------------
+
+19/166 Testing: t_strm_reassem_many
+19/166 Test: t_strm_reassem_many
+Command: "/home/bolee/cs144/sponge/RelASan/tests/fsm_stream_reassembler_many"
+Directory: /home/bolee/cs144/sponge/RelASan
+"t_strm_reassem_many" start time: Aug 17 18:40 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =  10.05 sec
+----------------------------------------------------------
+Test Failed.
+"t_strm_reassem_many" end time: Aug 17 18:41 CST
+"t_strm_reassem_many" time elapsed: 00:00:10
+----------------------------------------------------------
+
+20/166 Testing: t_strm_reassem_overlapping
+20/166 Test: t_strm_reassem_overlapping
+Command: "/home/bolee/cs144/sponge/RelASan/tests/fsm_stream_reassembler_overlapping"
+Directory: /home/bolee/cs144/sponge/RelASan
+"t_strm_reassem_overlapping" start time: Aug 17 18:41 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =  10.03 sec
+----------------------------------------------------------
+Test Failed.
+"t_strm_reassem_overlapping" end time: Aug 17 18:41 CST
+"t_strm_reassem_overlapping" time elapsed: 00:00:10
+----------------------------------------------------------
+
+21/166 Testing: t_strm_reassem_win
+21/166 Test: t_strm_reassem_win
+Command: "/home/bolee/cs144/sponge/RelASan/tests/fsm_stream_reassembler_win"
+Directory: /home/bolee/cs144/sponge/RelASan
+"t_strm_reassem_win" start time: Aug 17 18:41 CST
+Output:
+----------------------------------------------------------
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==28224==ERROR: AddressSanitizer: stack-overflow on address 0x7ffcde718e60 (pc 0x55a33ab24018 bp 0x7ffcdef15900 sp 0x7ffcde718e20 T0)
+    #0 0x55a33ab24017 in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:39
+    #1 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #2 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #3 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #4 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #5 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #6 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #7 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #8 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #9 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #10 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #11 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #12 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #13 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #14 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #15 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #16 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #17 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #18 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #19 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #20 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #21 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #22 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #23 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #24 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #25 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #26 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #27 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #28 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #29 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #30 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #31 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #32 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #33 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #34 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #35 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #36 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #37 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #38 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #39 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #40 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #41 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #42 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #43 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #44 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #45 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #46 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #47 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #48 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #49 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #50 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #51 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #52 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #53 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #54 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #55 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #56 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #57 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #58 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #59 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #60 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #61 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #62 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #63 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #64 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #65 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #66 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #67 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #68 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #69 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #70 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #71 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #72 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #73 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #74 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #75 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #76 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #77 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #78 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #79 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #80 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #81 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #82 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #83 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #84 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #85 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #86 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #87 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #88 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #89 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #90 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #91 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #92 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #93 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #94 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #95 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #96 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #97 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #98 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #99 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #100 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #101 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #102 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #103 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #104 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #105 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #106 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #107 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #108 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #109 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #110 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #111 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #112 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #113 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #114 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #115 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #116 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #117 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #118 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #119 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #120 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #121 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #122 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #123 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #124 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #125 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #126 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #127 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #128 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #129 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #130 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #131 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #132 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #133 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #134 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #135 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #136 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #137 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #138 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #139 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #140 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #141 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #142 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #143 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #144 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #145 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #146 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #147 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #148 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #149 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #150 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #151 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #152 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #153 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #154 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #155 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #156 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #157 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #158 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #159 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #160 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #161 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #162 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #163 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #164 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #165 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #166 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #167 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #168 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #169 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #170 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #171 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #172 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #173 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #174 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #175 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #176 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #177 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #178 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #179 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #180 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #181 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #182 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #183 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #184 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #185 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #186 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #187 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #188 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #189 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #190 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #191 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #192 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #193 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #194 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #195 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #196 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #197 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #198 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #199 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #200 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #201 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #202 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #203 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #204 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #205 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #206 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #207 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #208 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #209 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #210 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #211 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #212 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #213 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #214 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #215 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #216 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #217 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #218 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #219 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #220 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #221 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #222 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #223 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #224 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #225 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #226 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #227 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #228 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #229 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #230 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #231 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #232 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #233 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #234 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #235 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #236 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #237 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #238 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #239 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #240 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #241 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #242 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #243 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #244 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #245 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #246 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #247 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+    #248 0x55a33ab243ce in StreamReassembler::_push_into_bytestream() /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:48
+
+SUMMARY: AddressSanitizer: stack-overflow /home/bolee/cs144/sponge/libsponge/stream_reassembler.cc:39 in StreamReassembler::_push_into_bytestream()
+==28224==ABORTING
+<end of output>
+Test time =   0.44 sec
+----------------------------------------------------------
+Test Failed.
+"t_strm_reassem_win" end time: Aug 17 18:41 CST
+"t_strm_reassem_win" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/166 Testing: t_strm_reassem_cap
+22/166 Test: t_strm_reassem_cap
+Command: "/home/bolee/cs144/sponge/RelASan/tests/fsm_stream_reassembler_cap"
+Directory: /home/bolee/cs144/sponge/RelASan
+"t_strm_reassem_cap" start time: Aug 17 18:41 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   3.96 sec
+----------------------------------------------------------
+Test Passed.
+"t_strm_reassem_cap" end time: Aug 17 18:41 CST
+"t_strm_reassem_cap" time elapsed: 00:00:03
+----------------------------------------------------------
+
+23/166 Testing: t_byte_stream_construction
+23/166 Test: t_byte_stream_construction
+Command: "/home/bolee/cs144/sponge/RelASan/tests/byte_stream_construction"
+Directory: /home/bolee/cs144/sponge/RelASan
+"t_byte_stream_construction" start time: Aug 17 18:41 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"t_byte_stream_construction" end time: Aug 17 18:41 CST
+"t_byte_stream_construction" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/166 Testing: t_byte_stream_one_write
+24/166 Test: t_byte_stream_one_write
+Command: "/home/bolee/cs144/sponge/RelASan/tests/byte_stream_one_write"
+Directory: /home/bolee/cs144/sponge/RelASan
+"t_byte_stream_one_write" start time: Aug 17 18:41 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"t_byte_stream_one_write" end time: Aug 17 18:41 CST
+"t_byte_stream_one_write" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/166 Testing: t_byte_stream_two_writes
+25/166 Test: t_byte_stream_two_writes
+Command: "/home/bolee/cs144/sponge/RelASan/tests/byte_stream_two_writes"
+Directory: /home/bolee/cs144/sponge/RelASan
+"t_byte_stream_two_writes" start time: Aug 17 18:41 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"t_byte_stream_two_writes" end time: Aug 17 18:41 CST
+"t_byte_stream_two_writes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/166 Testing: t_byte_stream_capacity
+26/166 Test: t_byte_stream_capacity
+Command: "/home/bolee/cs144/sponge/RelASan/tests/byte_stream_capacity"
+Directory: /home/bolee/cs144/sponge/RelASan
+"t_byte_stream_capacity" start time: Aug 17 18:41 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =  10.13 sec
+----------------------------------------------------------
+Test Failed.
+"t_byte_stream_capacity" end time: Aug 17 18:41 CST
+"t_byte_stream_capacity" time elapsed: 00:00:10
+----------------------------------------------------------
+
+27/166 Testing: t_byte_stream_many_writes
+27/166 Test: t_byte_stream_many_writes
+Command: "/home/bolee/cs144/sponge/RelASan/tests/byte_stream_many_writes"
+Directory: /home/bolee/cs144/sponge/RelASan
+"t_byte_stream_many_writes" start time: Aug 17 18:41 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Passed.
+"t_byte_stream_many_writes" end time: Aug 17 18:41 CST
+"t_byte_stream_many_writes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+50/166 Testing: t_address_dt
+50/166 Test: t_address_dt
+Command: "/home/bolee/cs144/sponge/RelASan/doctests/address_dt"
+Directory: /home/bolee/cs144/sponge/RelASan
+"t_address_dt" start time: Aug 17 18:41 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Passed.
+"t_address_dt" end time: Aug 17 18:41 CST
+"t_address_dt" time elapsed: 00:00:00
+----------------------------------------------------------
+
+51/166 Testing: t_parser_dt
+51/166 Test: t_parser_dt
+Command: "/home/bolee/cs144/sponge/RelASan/doctests/parser_dt"
+Directory: /home/bolee/cs144/sponge/RelASan
+"t_parser_dt" start time: Aug 17 18:41 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"t_parser_dt" end time: Aug 17 18:41 CST
+"t_parser_dt" time elapsed: 00:00:00
+----------------------------------------------------------
+
+52/166 Testing: t_socket_dt
+52/166 Test: t_socket_dt
+Command: "/home/bolee/cs144/sponge/RelASan/doctests/socket_dt"
+Directory: /home/bolee/cs144/sponge/RelASan
+"t_socket_dt" start time: Aug 17 18:41 CST
+Output:
+----------------------------------------------------------
+/home/bolee/cs144/sponge/libsponge/util/address.cc:28:11: runtime error: null pointer passed as argument 2, which is declared to never be null
+<end of output>
+Test time =   0.14 sec
+----------------------------------------------------------
+Test Passed.
+"t_socket_dt" end time: Aug 17 18:41 CST
+"t_socket_dt" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 17 18:41 CST

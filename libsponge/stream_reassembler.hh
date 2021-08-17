@@ -5,7 +5,7 @@
 
 #include <cstdint>
 #include <string>
-
+#include<set>
 //! \brief A class that assembles a series of excerpts from a byte stream (possibly out of order,
 //! possibly overlapping) into an in-order byte stream.
 class StreamReassembler {
@@ -14,8 +14,26 @@ class StreamReassembler {
 
     ByteStream _output;  //!< The reassembled in-order byte stream
     size_t _capacity;    //!< The maximum number of bytes
+    size_t _next_index=0;
+    bool _eof=false;
+    class segment{
+    public:
+        size_t index;
+        std::string data;
+        bool eof;
+        bool operator<(const segment s)const {return index < s.index; }
+    };
+    //在StreamReassembler中等待重组的segment，初始化为空
+    std::set<segment>_segs_to_be_reassembled = {};
+    bool _cut(segment &s);
+    //处理重叠的子串
+    void _handle_overlap(segment s);
+    //合并重叠的子串,返回被合并后新的segment
+    segment _merge_seg(segment s,segment other);
 
+    void _push_into_bytestream();
   public:
+    
     //! \brief Construct a `StreamReassembler` that will store up to `capacity` bytes.
     //! \note This capacity limits both the bytes that have been reassembled,
     //! and those that have not yet been reassembled.
