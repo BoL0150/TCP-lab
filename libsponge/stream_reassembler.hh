@@ -34,6 +34,7 @@ class StreamReassembler {
     void _push_into_bytestream();
   public:
     
+    uint64_t first_unassembled() const{ return _next_index; }
     //! \brief Construct a `StreamReassembler` that will store up to `capacity` bytes.
     //! \note This capacity limits both the bytes that have been reassembled,
     //! and those that have not yet been reassembled.

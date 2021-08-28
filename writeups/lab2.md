@@ -1,9 +1,9 @@
 Lab 2 Writeup
 =============
 
-My name: [your name here]
+My name: [bolee]
 
-My SUNet ID: [your sunetid here]
+My SUNet ID: [1902151509]
 
 This lab took me about [n] hours to do. I [did/did not] attend the lab session.
 
