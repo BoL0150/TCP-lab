@@ -3,7 +3,7 @@
 
 #include "byte_stream.hh"
 #include "stream_reassembler.hh"
-#include "tcp_segment.hh"
+#include "tcp_helpers/tcp_segment.hh"
 #include "wrapping_integers.hh"
 
 #include <optional>
@@ -26,43 +26,27 @@ class TCPReceiver {
 
 
   public:
-    //! \brief Construct a TCP receiver
-    //!
-    //! \param capacity the maximum number of bytes that the receiver will
-    //!                 store in its buffers at any give time.
+    //构造一个 `TCPReceiver`，最多可以存储 `capacity` 字节，实际上就是STreamReassembler的大小
     TCPReceiver(const size_t capacity) : _reassembler(capacity), _capacity(capacity) {}
 
-    //! \name Accessors to provide feedback to the remote TCPSender
-    //!@{
+    	//向远程TCPsender提供反馈
 
-    //! \brief The ackno that should be sent to the peer
-    //! \returns empty if no SYN has been received
-    //!
-    //! This is the beginning of the receiver's window, or in other words, the sequence number
-    //! of the first byte in the stream that the receiver hasn't received.
+    //返回包含ackno的optional<WrappingInt32>，如果ISN还没有初始化（即没有收到SYN）则返回空。 
+    //ackno是接收窗口的开始，或者说接收者没有接收到的流中第一个字节的序列号
     std::optional<WrappingInt32> ackno() const;
 
-    //! \brief The window size that should be sent to the peer
-    //!
-    //! Operationally: the capacity minus the number of bytes that the
-    //! TCPReceiver is holding in its byte stream (those that have been
-    //! reassembled, but not consumed).
-    //!
-    //! Formally: the difference between (a) the sequence number of
-    //! the first byte that falls after the window (and will not be
-    //! accepted by the receiver) and (b) the sequence number of the
-    //! beginning of the window (the ackno).
+    //应该发送给对方的接收窗口大小
+    //capacity减去 TCPReceiver 在其BYteStream中保存的字节数（那些已重组但被应用层读取的字节数）。
+    //也相当于first unassembled索引（即ackno）和first unacceptable索引的距离
     size_t window_size() const;
-    //!@}
 
-    //! \brief number of bytes stored but not yet reassembled
+    //!已存储但尚未重组的字节数
     size_t unassembled_bytes() const { return _reassembler.unassembled_bytes(); }
 
-    //! \brief handle an inbound segment
+    //处理接收到的TCPsegment
     void segment_received(const TCPSegment &seg);
 
-    //! \name "Output" interface for the reader
-    //!@{
+    //返回StreamReassembler中的已重组的字节流ByteStream
     ByteStream &stream_out() { return _reassembler.stream_out(); }
     const ByteStream &stream_out() const { return _reassembler.stream_out(); }
     //!@}
