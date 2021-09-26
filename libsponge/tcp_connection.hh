@@ -22,10 +22,15 @@ class TCPConnection {
     std::queue<TCPSegment> _segments_out{};
 
     // TCPConnection是否alive
-    bool _alive{true};
+    bool _active{true};
     // TCPConnection是否应该在两个流结束后保持alive 10 * _cfg.rt_timeout的时间
     bool _linger_after_streams_finish{true};
+    
+    bool _time_since_last_segment_received{0};
 
+    // 对TCPSender的 _segments_out中的segment设置首部的ackno和windowsize字段
+    // 再加入到TCPConnection的 _segments_out，真正地将TCPsegment发送出去
+    void _set_ackno_and_winsize();
   public:
     //! 提供给应用层writer的输入接口
 
