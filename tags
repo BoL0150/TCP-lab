@@ -3451,6 +3451,7 @@ __anonfe8d0e590102	tests/tcp_fsm_test_harness.cc	/^    : TestFD([&]() {$/;"	f	fi
 _abort	libsponge/tcp_helpers/tcp_sponge_socket.hh	/^    std::atomic_bool _abort{false};  \/\/!< Flag used by the owner to force the TCPConnection th/;"	m	class:TCPSpongeSocket	typeref:typename:std::atomic_bool
 _ackno	tests/receiver_harness.hh	/^    std::optional<WrappingInt32> _ackno;$/;"	m	struct:ExpectAckno	typeref:typename:std::optional<WrappingInt32>
 _ackno	tests/sender_harness.hh	/^    WrappingInt32 _ackno;$/;"	m	struct:AckReceived	typeref:typename:WrappingInt32
+_active	libsponge/tcp_connection.hh	/^    bool _active{true};$/;"	m	class:TCPConnection	typeref:typename:bool
 _active	libsponge/tcp_helpers/tcp_state.hh	/^    bool _active{true};$/;"	m	class:TCPState	typeref:typename:bool
 _adapter	libsponge/tcp_helpers/lossy_fd_adapter.hh	/^    AdapterT _adapter;$/;"	m	class:LossyFdAdapter	typeref:typename:AdapterT
 _address	libsponge/util/address.hh	/^    Raw _address{};   \/\/!< A wrapped [sockaddr_storage](@ref man7::socket) containing the addr/;"	m	class:Address	typeref:typename:Raw
@@ -3478,6 +3479,7 @@ _cfg	libsponge/tcp_connection.hh	/^    TCPConfig _cfg;$/;"	m	class:TCPConnection
 _cfg	libsponge/tcp_helpers/fd_adapter.hh	/^    FdAdapterConfig _cfg{};  \/\/!< Configuration values$/;"	m	class:FdAdapterBase	typeref:typename:FdAdapterConfig
 _check_size	libsponge/util/parser.cc	/^void NetParser::_check_size(const size_t size) {$/;"	f	class:NetParser	typeref:typename:void
 _checkpoint	libsponge/tcp_receiver.hh	/^    uint64_t _checkpoint = 0;$/;"	m	class:TCPReceiver	typeref:typename:uint64_t
+_clean_shutdown	libsponge/tcp_connection.cc	/^void TCPConnection::_clean_shutdown(){$/;"	f	class:TCPConnection	typeref:typename:void
 _closed	libsponge/util/file_descriptor.hh	/^        bool _closed = false;       \/\/!< Flag indicating whether FDWrapper::_fd has been close/;"	m	class:FileDescriptor::FDWrapper	typeref:typename:bool
 _consecutive_retransmissions	libsponge/tcp_sender.hh	/^    uint16_t _consecutive_retransmissions = 0;$/;"	m	class:TCPSender	typeref:typename:uint16_t
 _cut	libsponge/stream_reassembler.cc	/^StreamReassembler::_cut(segment &s){$/;"	f	class:StreamReassembler	typeref:typename:bool
@@ -3546,6 +3548,7 @@ _rt_listen	txrx.sh	/^_rt_listen () {$/;"	f
 _rules	libsponge/util/eventloop.hh	/^    std::list<Rule> _rules{};  \/\/!< All rules that have been added and not canceled.$/;"	m	class:EventLoop	typeref:typename:std::list<Rule>
 _segments_out	libsponge/tcp_connection.hh	/^    std::queue<TCPSegment> _segments_out{};$/;"	m	class:TCPConnection	typeref:typename:std::queue<TCPSegment>
 _segments_out	libsponge/tcp_sender.hh	/^    std::queue<TCPSegment> _segments_out{};$/;"	m	class:TCPSender	typeref:typename:std::queue<TCPSegment>
+_send_segments	libsponge/tcp_connection.cc	/^void TCPConnection::_send_segments(){$/;"	f	class:TCPConnection	typeref:typename:void
 _send_segments	libsponge/tcp_sender.cc	/^void TCPSender::_send_segments(TCPSegment &seg){$/;"	f	class:TCPSender	typeref:typename:void
 _sender	libsponge/tcp_connection.hh	/^    TCPSender _sender{_cfg.send_capacity, _cfg.rt_timeout, _cfg.fixed_isn};$/;"	m	class:TCPConnection	typeref:typename:TCPSender
 _sender	libsponge/tcp_helpers/tcp_state.hh	/^    std::string _sender{};$/;"	m	class:TCPState	typeref:typename:std::string
@@ -3574,8 +3577,10 @@ _test_name	tests/byte_stream_test_harness.hh	/^    std::string _test_name;$/;"	m
 _test_should_be	tests/test_should_be.hh	/^static void _test_should_be(const T &actual,$/;"	f	typeref:typename:void
 _thread_data	libsponge/tcp_helpers/tcp_sponge_socket.hh	/^    LocalStreamSocket _thread_data;$/;"	m	class:TCPSpongeSocket	typeref:typename:LocalStreamSocket
 _time_elipsed	libsponge/tcp_sender.hh	/^    uint32_t _time_elipsed = 0;$/;"	m	class:TCPSender	typeref:typename:uint32_t
+_time_since_last_segment_received	libsponge/tcp_connection.hh	/^    bool _time_since_last_segment_received{0};$/;"	m	class:TCPConnection	typeref:typename:bool
 _timer_running	libsponge/tcp_sender.hh	/^    bool _timer_running = false;$/;"	m	class:TCPSender	typeref:typename:bool
 _tun	libsponge/tcp_helpers/tuntap_adapter.hh	/^    TunFD _tun;$/;"	m	class:TCPOverIPv4OverTunFdAdapter	typeref:typename:TunFD
+_unclean_shutdown	libsponge/tcp_connection.cc	/^void TCPConnection::_unclean_shutdown(){$/;"	f	class:TCPConnection	typeref:typename:void
 _unparse_int	libsponge/util/parser.cc	/^void NetUnparser::_unparse_int(string &s, T val) {$/;"	f	class:NetUnparser	typeref:typename:void
 _views	libsponge/util/buffer.hh	/^    std::deque<std::string_view> _views{};$/;"	m	class:BufferViewList	typeref:typename:std::deque<std::string_view>
 _window	tests/receiver_harness.hh	/^    size_t _window;$/;"	m	struct:ExpectWindow	typeref:typename:size_t
@@ -3599,7 +3604,7 @@ ackno	tests/receiver_harness.hh	/^    WrappingInt32 ackno{0};$/;"	m	struct:Segme
 ackno	tests/sender_harness.hh	/^    std::optional<WrappingInt32> ackno{};$/;"	m	struct:ExpectSegment	typeref:typename:std::optional<WrappingInt32>
 ackno	tests/tcp_expectation.hh	/^    WrappingInt32 ackno{0};$/;"	m	struct:SendSegment	typeref:typename:WrappingInt32
 ackno	tests/tcp_expectation.hh	/^    std::optional<WrappingInt32> ackno{};$/;"	m	struct:ExpectSegment	typeref:typename:std::optional<WrappingInt32>
-active	libsponge/tcp_connection.cc	/^bool TCPConnection::active() const { return {}; }$/;"	f	class:TCPConnection	typeref:typename:bool
+active	libsponge/tcp_connection.cc	/^bool TCPConnection::active() const { return _active;}$/;"	f	class:TCPConnection	typeref:typename:bool
 add	libsponge/util/util.cc	/^void InternetChecksum::add(std::string_view data) {$/;"	f	class:InternetChecksum	typeref:typename:void
 add_rule	libsponge/util/eventloop.cc	/^void EventLoop::add_rule(const FileDescriptor &fd,$/;"	f	class:EventLoop	typeref:typename:void
 add_sponge_exec	etc/build_defs.cmake	/^macro (add_sponge_exec exec_name)$/;"	m
@@ -3793,7 +3798,7 @@ byte_stream_two_writes/fast	build/Makefile	/^byte_stream_two_writes\/fast:$/;"	t
 byte_stream_two_writes/fast	build/tests/Makefile	/^byte_stream_two_writes\/fast:$/;"	t
 bytes	tests/tcp_expectation.hh	/^    uint64_t bytes;$/;"	m	struct:ExpectBytesInFlight	typeref:typename:uint64_t
 bytes	tests/tcp_expectation.hh	/^    uint64_t bytes;$/;"	m	struct:ExpectUnassembledBytes	typeref:typename:uint64_t
-bytes_in_flight	libsponge/tcp_connection.cc	/^size_t TCPConnection::bytes_in_flight() const { return {}; }$/;"	f	class:TCPConnection	typeref:typename:size_t
+bytes_in_flight	libsponge/tcp_connection.cc	/^size_t TCPConnection::bytes_in_flight() const { return _sender.bytes_in_flight(); }$/;"	f	class:TCPConnection	typeref:typename:size_t
 bytes_in_flight	libsponge/tcp_sender.cc	/^uint64_t TCPSender::bytes_in_flight() const {$/;"	f	class:TCPSender	typeref:typename:uint64_t
 bytes_read	libsponge/byte_stream.cc	/^size_t ByteStream::bytes_read() const {$/;"	f	class:ByteStream	typeref:typename:size_t
 bytes_written	libsponge/byte_stream.cc	/^size_t ByteStream::bytes_written() const {$/;"	f	class:ByteStream	typeref:typename:size_t
@@ -4022,7 +4027,7 @@ config_mut	libsponge/tcp_helpers/fd_adapter.hh	/^    FdAdapterConfig &config_mut
 config_mut	libsponge/tcp_helpers/lossy_fd_adapter.hh	/^    FdAdapterConfig &config_mut() { return _adapter.config_mut(); }      \/\/!< FdAdapterBase::c/;"	f	class:LossyFdAdapter	typeref:typename:FdAdapterConfig &
 config_mutable	libsponge/tcp_helpers/fd_adapter.hh	/^    FdAdapterConfig &config_mutable() { return _cfg; }$/;"	f	class:FdAdapterBase	typeref:typename:FdAdapterConfig &
 config_segment	tests/tcp_fsm_test_harness.cc	/^void TestFdAdapter::config_segment(TCPSegment &seg) {$/;"	f	class:TestFdAdapter	typeref:typename:void
-connect	libsponge/tcp_connection.cc	/^void TCPConnection::connect() {}$/;"	f	class:TCPConnection	typeref:typename:void
+connect	libsponge/tcp_connection.cc	/^void TCPConnection::connect() {$/;"	f	class:TCPConnection	typeref:typename:void
 connect	libsponge/tcp_helpers/tcp_sponge_socket.cc	/^void CS144TCPSocket::connect(const Address &address) {$/;"	f	class:CS144TCPSocket	typeref:typename:void
 connect	libsponge/tcp_helpers/tcp_sponge_socket.cc	/^void TCPSpongeSocket<AdaptT>::connect(const TCPConfig &c_tcp, const FdAdapterConfig &c_ad) {$/;"	f	class:TCPSpongeSocket	typeref:typename:void
 connect	libsponge/util/socket.cc	/^void Socket::connect(const Address &address) { SystemCall("connect", ::connect(fd_num(), address/;"	f	class:Socket	typeref:typename:void
@@ -4275,7 +4280,7 @@ edit_cache/fast	build/libsponge/Makefile	/^edit_cache\/fast: edit_cache$/;"	t
 edit_cache/fast	build/tests/Makefile	/^edit_cache\/fast: edit_cache$/;"	t
 empty	libsponge/stream_reassembler.cc	/^bool StreamReassembler::empty() const { $/;"	f	class:StreamReassembler	typeref:typename:bool
 end_input	libsponge/byte_stream.cc	/^void ByteStream::end_input() {$/;"	f	class:ByteStream	typeref:typename:void
-end_input_stream	libsponge/tcp_connection.cc	/^void TCPConnection::end_input_stream() {}$/;"	f	class:TCPConnection	typeref:typename:void
+end_input_stream	libsponge/tcp_connection.cc	/^void TCPConnection::end_input_stream() {$/;"	f	class:TCPConnection	typeref:typename:void
 eof	libsponge/byte_stream.cc	/^bool ByteStream::eof() const {$/;"	f	class:ByteStream	typeref:typename:bool
 eof	libsponge/stream_reassembler.hh	/^        bool eof;$/;"	m	class:StreamReassembler::segment	typeref:typename:bool
 eof	libsponge/util/file_descriptor.hh	/^    bool eof() const { return _internal_fd->_eof; }$/;"	f	class:FileDescriptor	typeref:typename:bool
@@ -5157,7 +5162,7 @@ ref_listen	txrx.sh	/^ref_listen () {$/;"	f
 register_read	libsponge/util/file_descriptor.hh	/^    void register_read() { ++_internal_fd->_read_count; }    \/\/!< increment read count$/;"	f	class:FileDescriptor	typeref:typename:void
 register_write	libsponge/util/file_descriptor.hh	/^    void register_write() { ++_internal_fd->_write_count; }  \/\/!< increment write count$/;"	f	class:FileDescriptor	typeref:typename:void
 remaining_capacity	libsponge/byte_stream.cc	/^size_t ByteStream::remaining_capacity() const {$/;"	f	class:ByteStream	typeref:typename:size_t
-remaining_outbound_capacity	libsponge/tcp_connection.cc	/^size_t TCPConnection::remaining_outbound_capacity() const { return {}; }$/;"	f	class:TCPConnection	typeref:typename:size_t
+remaining_outbound_capacity	libsponge/tcp_connection.cc	/^size_t TCPConnection::remaining_outbound_capacity() const { return _sender.stream_in().remaining/;"	f	class:TCPConnection	typeref:typename:size_t
 remove_prefix	libsponge/util/buffer.cc	/^void Buffer::remove_prefix(const size_t n) {$/;"	f	class:Buffer	typeref:typename:void
 remove_prefix	libsponge/util/buffer.cc	/^void BufferList::remove_prefix(size_t n) {$/;"	f	class:BufferList	typeref:typename:void
 remove_prefix	libsponge/util/buffer.cc	/^void BufferViewList::remove_prefix(size_t n) {$/;"	f	class:BufferViewList	typeref:typename:void
@@ -5174,7 +5179,7 @@ rt_timeout	libsponge/tcp_helpers/tcp_config.hh	/^    uint16_t rt_timeout = TIMEO
 segment	libsponge/stream_reassembler.hh	/^    class segment{$/;"	c	class:StreamReassembler
 segment_description	tests/sender_harness.hh	/^    std::string segment_description() const {$/;"	f	struct:ExpectSegment	typeref:typename:std::string
 segment_description	tests/tcp_expectation.hh	/^    std::string segment_description() const {$/;"	f	struct:ExpectSegment	typeref:typename:std::string
-segment_received	libsponge/tcp_connection.cc	/^void TCPConnection::segment_received(const TCPSegment &seg) { DUMMY_CODE(seg); }$/;"	f	class:TCPConnection	typeref:typename:void
+segment_received	libsponge/tcp_connection.cc	/^void TCPConnection::segment_received(const TCPSegment &seg) { $/;"	f	class:TCPConnection	typeref:typename:void
 segment_received	libsponge/tcp_receiver.cc	/^void TCPReceiver::segment_received(const TCPSegment &seg) {$/;"	f	class:TCPReceiver	typeref:typename:void
 segments_out	libsponge/tcp_connection.hh	/^    std::queue<TCPSegment> &segments_out() { return _segments_out; }$/;"	f	class:TCPConnection	typeref:typename:std::queue<TCPSegment> &
 segments_out	libsponge/tcp_sender.hh	/^    std::queue<TCPSegment> &segments_out() { return _segments_out; }$/;"	f	class:TCPSender	typeref:typename:std::queue<TCPSegment> &
@@ -5603,7 +5608,7 @@ tests/CMakeFiles/wrapping_integers_cmp.dir/rule	Debug/tests/Makefile	/^tests\/CM
 tests/CMakeFiles/wrapping_integers_roundtrip.dir/rule	Debug/tests/Makefile	/^tests\/CMakeFiles\/wrapping_integers_roundtrip.dir\/rule:$/;"	t
 tests/CMakeFiles/wrapping_integers_unwrap.dir/rule	Debug/tests/Makefile	/^tests\/CMakeFiles\/wrapping_integers_unwrap.dir\/rule:$/;"	t
 tests/CMakeFiles/wrapping_integers_wrap.dir/rule	Debug/tests/Makefile	/^tests\/CMakeFiles\/wrapping_integers_wrap.dir\/rule:$/;"	t
-tick	libsponge/tcp_connection.cc	/^void TCPConnection::tick(const size_t ms_since_last_tick) { DUMMY_CODE(ms_since_last_tick); }$/;"	f	class:TCPConnection	typeref:typename:void
+tick	libsponge/tcp_connection.cc	/^void TCPConnection::tick(const size_t ms_since_last_tick) {$/;"	f	class:TCPConnection	typeref:typename:void
 tick	libsponge/tcp_helpers/fd_adapter.hh	/^    void tick(const size_t) {}$/;"	f	class:FdAdapterBase	typeref:typename:void
 tick	libsponge/tcp_helpers/lossy_fd_adapter.hh	/^    void tick(const size_t ms_since_last_tick) {$/;"	f	class:LossyFdAdapter	typeref:typename:void
 tick	libsponge/tcp_sender.cc	/^void TCPSender::tick(const size_t ms_since_last_tick) { $/;"	f	class:TCPSender	typeref:typename:void
@@ -6112,7 +6117,7 @@ tidy_verbose	etc/clang_tidy.cmake	/^    add_custom_target (tidy_verbose DEPENDS 
 tidy_verbose/fast	Debug/Makefile	/^tidy_verbose\/fast:$/;"	t
 tidy_verbose/fast	build/Makefile	/^tidy_verbose\/fast:$/;"	t
 time_point	libsponge/util/util.cc	/^    using time_point = std::chrono::steady_clock::time_point;$/;"	t	function:timestamp_ms	typeref:typename:std::chrono::steady_clock::time_point	file:
-time_since_last_segment_received	libsponge/tcp_connection.cc	/^size_t TCPConnection::time_since_last_segment_received() const { return {}; }$/;"	f	class:TCPConnection	typeref:typename:size_t
+time_since_last_segment_received	libsponge/tcp_connection.cc	/^size_t TCPConnection::time_since_last_segment_received() const { return _time_since_last_segment/;"	f	class:TCPConnection	typeref:typename:size_t
 timestamp_ms	libsponge/util/util.cc	/^uint64_t timestamp_ms() {$/;"	f	typeref:typename:uint64_t
 to_string	libsponge/tcp_helpers/ipv4_header.cc	/^std::string IPv4Header::to_string() const {$/;"	f	class:IPv4Header	typeref:typename:std::string
 to_string	libsponge/tcp_helpers/tcp_header.cc	/^string TCPHeader::to_string() const {$/;"	f	class:TCPHeader	typeref:typename:string
@@ -6159,7 +6164,7 @@ udp_tcpdump.s	Debug/apps/Makefile	/^udp_tcpdump.s: udp_tcpdump.cc.s$/;"	t
 udp_tcpdump/fast	Debug/Makefile	/^udp_tcpdump\/fast:$/;"	t
 udp_tcpdump/fast	Debug/apps/Makefile	/^udp_tcpdump\/fast:$/;"	t
 unassembled_bytes	libsponge/stream_reassembler.cc	/^size_t StreamReassembler::unassembled_bytes() const { $/;"	f	class:StreamReassembler	typeref:typename:size_t
-unassembled_bytes	libsponge/tcp_connection.cc	/^size_t TCPConnection::unassembled_bytes() const { return {}; }$/;"	f	class:TCPConnection	typeref:typename:size_t
+unassembled_bytes	libsponge/tcp_connection.cc	/^size_t TCPConnection::unassembled_bytes() const { return _receiver.unassembled_bytes(); }$/;"	f	class:TCPConnection	typeref:typename:size_t
 unassembled_bytes	libsponge/tcp_receiver.hh	/^    size_t unassembled_bytes() const { return _reassembler.unassembled_bytes(); }$/;"	f	class:TCPReceiver	typeref:typename:size_t
 unix_error	libsponge/util/util.hh	/^    explicit unix_error(const std::string &attempt, const int error = errno)$/;"	f	class:unix_error
 unix_error	libsponge/util/util.hh	/^class unix_error : public tagged_error {$/;"	c

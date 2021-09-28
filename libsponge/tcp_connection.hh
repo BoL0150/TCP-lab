@@ -30,7 +30,10 @@ class TCPConnection {
 
     // 对TCPSender的 _segments_out中的segment设置首部的ackno和windowsize字段
     // 再加入到TCPConnection的 _segments_out，真正地将TCPsegment发送出去
-    void _set_ackno_and_winsize();
+    void _send_segments();
+
+    void _clean_shutdown();
+    void _unclean_shutdown();
   public:
     //! 提供给应用层writer的输入接口
 
