@@ -74,10 +74,10 @@ void TCPConnection::segment_received(const TCPSegment &seg) {
         _sender.send_empty_segment();
     if (seg.header().rst) {
         _sender.send_empty_segment();
-        _unclean_shutdown();
+        unclean_shutdown();
         return;
     }
-    _send_segments();
+    send_sender_segments();
 }
 
 bool TCPConnection::active() const { return _active;}
@@ -90,12 +90,12 @@ size_t TCPConnection::write(const string &data) {
     size_t write_size = _sender.stream_in().write(data);
     _sender.fill_window();
     // 对TCPSender中的segment设置ackno和windowsize,再发送给对等端
-    _send_segments();
+    send_sender_segments();
     return write_size;
 }
 // 对TCPSender的 _segments_out中的segment设置首部的ackno和windowsize字段，还有ACK标志位
 // 再加入到TCPConnection的 _segments_out，真正地将TCPsegment发送出去
-void TCPConnection::_send_segments(){
+void TCPConnection::send_sender_segments(){
     // 此处必须要是引用类型，才能指向_sender中的同一个成员变量,才能对其进行操作
     // std::queue<TCPSegment>&sender_segs_out = _sender.segments_out();
 
@@ -114,7 +114,7 @@ void TCPConnection::_send_segments(){
         _segments_out.push(seg);
     }
     // 每次发送segment后，都需要判断是否需要干净关闭连接
-    _clean_shutdown();
+    clean_shutdown();
     
 }
 // 此方法被OS周期性调用
@@ -127,14 +127,14 @@ void TCPConnection::tick(const size_t ms_since_last_tick) {
     _sender.tick(ms_since_last_tick);
     // 如果连续重传的次数超过上限，则强制关闭连接
     if(_sender.consecutive_retransmissions() > TCPConfig::MAX_RETX_ATTEMPTS){
-        _unclean_shutdown();    
+        unclean_shutdown();    
     }
-    _send_segments();
+    send_sender_segments();
 }
 // 不干净的关闭，直接强制关闭连接
 // 将输入输出流设置为错误状态
 // 将连接的active置为false，向对等方发送rst
-void TCPConnection::_unclean_shutdown(){
+void TCPConnection::unclean_shutdown(){
     _receiver.stream_out().set_error();
     _sender.stream_in().set_error();
     _active = false;
@@ -151,7 +151,7 @@ void TCPConnection::_unclean_shutdown(){
 }
 // 干净关闭连接，判断能否干净地关闭连接，
 // 判断是否需要在两个流结束后linger一段时间
-void TCPConnection::_clean_shutdown(){
+void TCPConnection::clean_shutdown(){
     // 如果receiver已经收到了对等端的fin，StreamReassembler为空
     if(_receiver.stream_out().input_ended()){
         // 如果sender的输出流还没有结束，即ByteStream不为空，fin还没有发送出去
@@ -172,13 +172,13 @@ void TCPConnection::end_input_stream() {
     _sender.stream_in().end_input();
     // 发送fin，不能保证这一次能将fin发送出去，因为接收窗口有可能空间不够，ByteStream无法全部发送出去
     _sender.fill_window();
-    _send_segments();
+    send_sender_segments();
 }
 
 // 主动连接
 void TCPConnection::connect() {
     _sender.fill_window();
-    _send_segments();
+    send_sender_segments();
 }
 
 TCPConnection::~TCPConnection() {
@@ -186,7 +186,7 @@ TCPConnection::~TCPConnection() {
         if (active()) {
             cerr << "Warning: Unclean shutdown of TCPConnection\n";
             _sender.send_empty_segment();
-            _unclean_shutdown();
+            unclean_shutdown();
             // Your code here: need to send a RST segment to the peer
         }
     } catch (const exception &e) {

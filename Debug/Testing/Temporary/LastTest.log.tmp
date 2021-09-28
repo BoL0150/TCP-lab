@@ -1,17 +1,17 @@
-Start testing: Sep 28 16:24 CST
+Start testing: Sep 28 16:58 CST
 ----------------------------------------------------------
 1/164 Testing: t_wrapping_ints_cmp
 1/164 Test: t_wrapping_ints_cmp
 Command: "/home/bolee/cs144/sponge/Debug/tests/wrapping_integers_cmp"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_wrapping_ints_cmp" start time: Sep 28 16:24 CST
+"t_wrapping_ints_cmp" start time: Sep 28 16:58 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_wrapping_ints_cmp" end time: Sep 28 16:24 CST
+"t_wrapping_ints_cmp" end time: Sep 28 16:58 CST
 "t_wrapping_ints_cmp" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -19,14 +19,14 @@ Test Passed.
 2/164 Test: t_wrapping_ints_unwrap
 Command: "/home/bolee/cs144/sponge/Debug/tests/wrapping_integers_unwrap"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_wrapping_ints_unwrap" start time: Sep 28 16:24 CST
+"t_wrapping_ints_unwrap" start time: Sep 28 16:58 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_wrapping_ints_unwrap" end time: Sep 28 16:24 CST
+"t_wrapping_ints_unwrap" end time: Sep 28 16:58 CST
 "t_wrapping_ints_unwrap" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -34,14 +34,14 @@ Test Passed.
 3/164 Test: t_wrapping_ints_wrap
 Command: "/home/bolee/cs144/sponge/Debug/tests/wrapping_integers_wrap"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_wrapping_ints_wrap" start time: Sep 28 16:24 CST
+"t_wrapping_ints_wrap" start time: Sep 28 16:58 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_wrapping_ints_wrap" end time: Sep 28 16:24 CST
+"t_wrapping_ints_wrap" end time: Sep 28 16:58 CST
 "t_wrapping_ints_wrap" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -49,14 +49,14 @@ Test Passed.
 4/164 Test: t_wrapping_ints_roundtrip
 Command: "/home/bolee/cs144/sponge/Debug/tests/wrapping_integers_roundtrip"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_wrapping_ints_roundtrip" start time: Sep 28 16:24 CST
+"t_wrapping_ints_roundtrip" start time: Sep 28 16:58 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   1.09 sec
 ----------------------------------------------------------
 Test Passed.
-"t_wrapping_ints_roundtrip" end time: Sep 28 16:24 CST
+"t_wrapping_ints_roundtrip" end time: Sep 28 16:58 CST
 "t_wrapping_ints_roundtrip" time elapsed: 00:00:01
 ----------------------------------------------------------
 
@@ -64,14 +64,14 @@ Test Passed.
 5/164 Test: t_recv_connect
 Command: "/home/bolee/cs144/sponge/Debug/tests/recv_connect"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_recv_connect" start time: Sep 28 16:24 CST
+"t_recv_connect" start time: Sep 28 16:58 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_recv_connect" end time: Sep 28 16:24 CST
+"t_recv_connect" end time: Sep 28 16:58 CST
 "t_recv_connect" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -79,14 +79,14 @@ Test Passed.
 6/164 Test: t_recv_transmit
 Command: "/home/bolee/cs144/sponge/Debug/tests/recv_transmit"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_recv_transmit" start time: Sep 28 16:24 CST
+"t_recv_transmit" start time: Sep 28 16:58 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.55 sec
+Test time =   0.58 sec
 ----------------------------------------------------------
 Test Passed.
-"t_recv_transmit" end time: Sep 28 16:24 CST
+"t_recv_transmit" end time: Sep 28 16:58 CST
 "t_recv_transmit" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -94,14 +94,14 @@ Test Passed.
 7/164 Test: t_recv_window
 Command: "/home/bolee/cs144/sponge/Debug/tests/recv_window"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_recv_window" start time: Sep 28 16:24 CST
+"t_recv_window" start time: Sep 28 16:58 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_recv_window" end time: Sep 28 16:24 CST
+"t_recv_window" end time: Sep 28 16:58 CST
 "t_recv_window" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -109,14 +109,14 @@ Test Passed.
 8/164 Test: t_recv_reorder
 Command: "/home/bolee/cs144/sponge/Debug/tests/recv_reorder"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_recv_reorder" start time: Sep 28 16:24 CST
+"t_recv_reorder" start time: Sep 28 16:58 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_recv_reorder" end time: Sep 28 16:24 CST
+"t_recv_reorder" end time: Sep 28 16:58 CST
 "t_recv_reorder" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -124,14 +124,14 @@ Test Passed.
 9/164 Test: t_recv_close
 Command: "/home/bolee/cs144/sponge/Debug/tests/recv_close"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_recv_close" start time: Sep 28 16:24 CST
+"t_recv_close" start time: Sep 28 16:58 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_recv_close" end time: Sep 28 16:24 CST
+"t_recv_close" end time: Sep 28 16:58 CST
 "t_recv_close" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -139,14 +139,14 @@ Test Passed.
 10/164 Test: t_recv_special
 Command: "/home/bolee/cs144/sponge/Debug/tests/recv_special"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_recv_special" start time: Sep 28 16:24 CST
+"t_recv_special" start time: Sep 28 16:58 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_recv_special" end time: Sep 28 16:24 CST
+"t_recv_special" end time: Sep 28 16:58 CST
 "t_recv_special" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -154,14 +154,14 @@ Test Passed.
 11/164 Test: t_send_connect
 Command: "/home/bolee/cs144/sponge/Debug/tests/send_connect"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_send_connect" start time: Sep 28 16:24 CST
+"t_send_connect" start time: Sep 28 16:58 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_send_connect" end time: Sep 28 16:24 CST
+"t_send_connect" end time: Sep 28 16:58 CST
 "t_send_connect" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -169,14 +169,14 @@ Test Passed.
 12/164 Test: t_send_transmit
 Command: "/home/bolee/cs144/sponge/Debug/tests/send_transmit"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_send_transmit" start time: Sep 28 16:24 CST
+"t_send_transmit" start time: Sep 28 16:58 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.45 sec
+Test time =   0.27 sec
 ----------------------------------------------------------
 Test Passed.
-"t_send_transmit" end time: Sep 28 16:24 CST
+"t_send_transmit" end time: Sep 28 16:58 CST
 "t_send_transmit" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -184,14 +184,14 @@ Test Passed.
 13/164 Test: t_send_retx
 Command: "/home/bolee/cs144/sponge/Debug/tests/send_retx"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_send_retx" start time: Sep 28 16:24 CST
+"t_send_retx" start time: Sep 28 16:58 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.01 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"t_send_retx" end time: Sep 28 16:24 CST
+"t_send_retx" end time: Sep 28 16:58 CST
 "t_send_retx" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -199,14 +199,14 @@ Test Passed.
 14/164 Test: t_send_window
 Command: "/home/bolee/cs144/sponge/Debug/tests/send_window"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_send_window" start time: Sep 28 16:24 CST
+"t_send_window" start time: Sep 28 16:58 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.11 sec
+Test time =   0.09 sec
 ----------------------------------------------------------
 Test Passed.
-"t_send_window" end time: Sep 28 16:24 CST
+"t_send_window" end time: Sep 28 16:58 CST
 "t_send_window" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -214,14 +214,14 @@ Test Passed.
 15/164 Test: t_send_ack
 Command: "/home/bolee/cs144/sponge/Debug/tests/send_ack"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_send_ack" start time: Sep 28 16:24 CST
+"t_send_ack" start time: Sep 28 16:58 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_send_ack" end time: Sep 28 16:24 CST
+"t_send_ack" end time: Sep 28 16:58 CST
 "t_send_ack" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -229,14 +229,14 @@ Test Passed.
 16/164 Test: t_send_close
 Command: "/home/bolee/cs144/sponge/Debug/tests/send_close"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_send_close" start time: Sep 28 16:24 CST
+"t_send_close" start time: Sep 28 16:58 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_send_close" end time: Sep 28 16:24 CST
+"t_send_close" end time: Sep 28 16:58 CST
 "t_send_close" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -244,14 +244,14 @@ Test Passed.
 17/164 Test: t_send_extra
 Command: "/home/bolee/cs144/sponge/Debug/tests/send_extra"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_send_extra" start time: Sep 28 16:24 CST
+"t_send_extra" start time: Sep 28 16:58 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.03 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"t_send_extra" end time: Sep 28 16:24 CST
+"t_send_extra" end time: Sep 28 16:58 CST
 "t_send_extra" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -259,15 +259,15 @@ Test Passed.
 18/164 Test: t_strm_reassem_single
 Command: "/home/bolee/cs144/sponge/Debug/tests/fsm_stream_reassembler_single"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_strm_reassem_single" start time: Sep 28 16:24 CST
+"t_strm_reassem_single" start time: Sep 28 16:58 CST
 Output:
 ----------------------------------------------------------
 i really want to fuck you!!!!!!!!!!!!!
 <end of output>
-Test time =   0.01 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_single" end time: Sep 28 16:24 CST
+"t_strm_reassem_single" end time: Sep 28 16:58 CST
 "t_strm_reassem_single" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -275,14 +275,14 @@ Test Passed.
 19/164 Test: t_strm_reassem_seq
 Command: "/home/bolee/cs144/sponge/Debug/tests/fsm_stream_reassembler_seq"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_strm_reassem_seq" start time: Sep 28 16:24 CST
+"t_strm_reassem_seq" start time: Sep 28 16:58 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.02 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_seq" end time: Sep 28 16:24 CST
+"t_strm_reassem_seq" end time: Sep 28 16:58 CST
 "t_strm_reassem_seq" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -290,14 +290,14 @@ Test Passed.
 20/164 Test: t_strm_reassem_dup
 Command: "/home/bolee/cs144/sponge/Debug/tests/fsm_stream_reassembler_dup"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_strm_reassem_dup" start time: Sep 28 16:24 CST
+"t_strm_reassem_dup" start time: Sep 28 16:58 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.06 sec
+Test time =   0.07 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_dup" end time: Sep 28 16:24 CST
+"t_strm_reassem_dup" end time: Sep 28 16:58 CST
 "t_strm_reassem_dup" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -305,14 +305,14 @@ Test Passed.
 21/164 Test: t_strm_reassem_holes
 Command: "/home/bolee/cs144/sponge/Debug/tests/fsm_stream_reassembler_holes"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_strm_reassem_holes" start time: Sep 28 16:24 CST
+"t_strm_reassem_holes" start time: Sep 28 16:58 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_holes" end time: Sep 28 16:24 CST
+"t_strm_reassem_holes" end time: Sep 28 16:58 CST
 "t_strm_reassem_holes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -320,14 +320,14 @@ Test Passed.
 22/164 Test: t_strm_reassem_many
 Command: "/home/bolee/cs144/sponge/Debug/tests/fsm_stream_reassembler_many"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_strm_reassem_many" start time: Sep 28 16:24 CST
+"t_strm_reassem_many" start time: Sep 28 16:58 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.45 sec
+Test time =   0.44 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_many" end time: Sep 28 16:24 CST
+"t_strm_reassem_many" end time: Sep 28 16:58 CST
 "t_strm_reassem_many" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -335,14 +335,14 @@ Test Passed.
 23/164 Test: t_strm_reassem_overlapping
 Command: "/home/bolee/cs144/sponge/Debug/tests/fsm_stream_reassembler_overlapping"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_strm_reassem_overlapping" start time: Sep 28 16:24 CST
+"t_strm_reassem_overlapping" start time: Sep 28 16:58 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_overlapping" end time: Sep 28 16:24 CST
+"t_strm_reassem_overlapping" end time: Sep 28 16:58 CST
 "t_strm_reassem_overlapping" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -350,14 +350,14 @@ Test Passed.
 24/164 Test: t_strm_reassem_win
 Command: "/home/bolee/cs144/sponge/Debug/tests/fsm_stream_reassembler_win"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_strm_reassem_win" start time: Sep 28 16:24 CST
+"t_strm_reassem_win" start time: Sep 28 16:58 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.54 sec
+Test time =   0.52 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_win" end time: Sep 28 16:24 CST
+"t_strm_reassem_win" end time: Sep 28 16:58 CST
 "t_strm_reassem_win" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -365,14 +365,14 @@ Test Passed.
 25/164 Test: t_strm_reassem_cap
 Command: "/home/bolee/cs144/sponge/Debug/tests/fsm_stream_reassembler_cap"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_strm_reassem_cap" start time: Sep 28 16:24 CST
+"t_strm_reassem_cap" start time: Sep 28 16:58 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   1.08 sec
+Test time =   1.05 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_cap" end time: Sep 28 16:24 CST
+"t_strm_reassem_cap" end time: Sep 28 16:58 CST
 "t_strm_reassem_cap" time elapsed: 00:00:01
 ----------------------------------------------------------
 
@@ -380,14 +380,14 @@ Test Passed.
 26/164 Test: t_byte_stream_construction
 Command: "/home/bolee/cs144/sponge/Debug/tests/byte_stream_construction"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_byte_stream_construction" start time: Sep 28 16:24 CST
+"t_byte_stream_construction" start time: Sep 28 16:58 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_byte_stream_construction" end time: Sep 28 16:24 CST
+"t_byte_stream_construction" end time: Sep 28 16:58 CST
 "t_byte_stream_construction" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -395,14 +395,14 @@ Test Passed.
 27/164 Test: t_byte_stream_one_write
 Command: "/home/bolee/cs144/sponge/Debug/tests/byte_stream_one_write"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_byte_stream_one_write" start time: Sep 28 16:24 CST
+"t_byte_stream_one_write" start time: Sep 28 16:58 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_byte_stream_one_write" end time: Sep 28 16:24 CST
+"t_byte_stream_one_write" end time: Sep 28 16:58 CST
 "t_byte_stream_one_write" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -410,14 +410,14 @@ Test Passed.
 28/164 Test: t_byte_stream_two_writes
 Command: "/home/bolee/cs144/sponge/Debug/tests/byte_stream_two_writes"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_byte_stream_two_writes" start time: Sep 28 16:24 CST
+"t_byte_stream_two_writes" start time: Sep 28 16:58 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_byte_stream_two_writes" end time: Sep 28 16:24 CST
+"t_byte_stream_two_writes" end time: Sep 28 16:58 CST
 "t_byte_stream_two_writes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -425,14 +425,14 @@ Test Passed.
 29/164 Test: t_byte_stream_capacity
 Command: "/home/bolee/cs144/sponge/Debug/tests/byte_stream_capacity"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_byte_stream_capacity" start time: Sep 28 16:24 CST
+"t_byte_stream_capacity" start time: Sep 28 16:58 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   3.69 sec
+Test time =   3.68 sec
 ----------------------------------------------------------
 Test Passed.
-"t_byte_stream_capacity" end time: Sep 28 16:24 CST
+"t_byte_stream_capacity" end time: Sep 28 16:58 CST
 "t_byte_stream_capacity" time elapsed: 00:00:03
 ----------------------------------------------------------
 
@@ -440,14 +440,14 @@ Test Passed.
 30/164 Test: t_byte_stream_many_writes
 Command: "/home/bolee/cs144/sponge/Debug/tests/byte_stream_many_writes"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_byte_stream_many_writes" start time: Sep 28 16:24 CST
+"t_byte_stream_many_writes" start time: Sep 28 16:58 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.03 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"t_byte_stream_many_writes" end time: Sep 28 16:24 CST
+"t_byte_stream_many_writes" end time: Sep 28 16:58 CST
 "t_byte_stream_many_writes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -455,7 +455,7 @@ Test Passed.
 31/164 Test: t_webget
 Command: "/home/bolee/cs144/sponge/tests/webget_t.sh"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_webget" start time: Sep 28 16:24 CST
+"t_webget" start time: Sep 28 16:58 CST
 Output:
 ----------------------------------------------------------
 HTTP/1.1 200 OK
@@ -463,10 +463,10 @@ Content-type: text/plain
 
 7SmXqWkrLKzVBCEalbSPqBcvs11Pw263K7x4Wv3JckI
 <end of output>
-Test time =   1.41 sec
+Test time =   1.44 sec
 ----------------------------------------------------------
 Test Passed.
-"t_webget" end time: Sep 28 16:24 CST
+"t_webget" end time: Sep 28 16:58 CST
 "t_webget" time elapsed: 00:00:01
 ----------------------------------------------------------
 
@@ -474,14 +474,14 @@ Test Passed.
 34/164 Test: t_tcp_parser
 Command: "/home/bolee/cs144/sponge/Debug/tests/tcp_parser" "/home/bolee/cs144/sponge/tests/ipv4_parser.data"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_tcp_parser" start time: Sep 28 16:24 CST
+"t_tcp_parser" start time: Sep 28 16:58 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.02 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"t_tcp_parser" end time: Sep 28 16:24 CST
+"t_tcp_parser" end time: Sep 28 16:58 CST
 "t_tcp_parser" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -489,14 +489,14 @@ Test Passed.
 35/164 Test: t_ipv4_parser
 Command: "/home/bolee/cs144/sponge/Debug/tests/ipv4_parser" "/home/bolee/cs144/sponge/tests/ipv4_parser.data"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_ipv4_parser" start time: Sep 28 16:24 CST
+"t_ipv4_parser" start time: Sep 28 16:58 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"t_ipv4_parser" end time: Sep 28 16:24 CST
+"t_ipv4_parser" end time: Sep 28 16:58 CST
 "t_ipv4_parser" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -504,7 +504,7 @@ Test Passed.
 36/164 Test: t_active_close
 Command: "/home/bolee/cs144/sponge/Debug/tests/fsm_active_close"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_active_close" start time: Sep 28 16:24 CST
+"t_active_close" start time: Sep 28 16:58 CST
 Output:
 ----------------------------------------------------------
 Test Failure on expectation:
@@ -529,10 +529,10 @@ List of steps that executed successfully:
 Warning: Unclean shutdown of TCPConnection
 The TCP has `state = sender=`stream finished and fully acknowledged`, receiver=`input to stream has ended`, active=1, linger_after_streams_finish=1`, but state was expected to **not** be `sender=`stream finished and fully acknowledged`, receiver=`input to stream has ended`, active=1, linger_after_streams_finish=1`
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Failed.
-"t_active_close" end time: Sep 28 16:24 CST
+"t_active_close" end time: Sep 28 16:58 CST
 "t_active_close" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -540,14 +540,14 @@ Test Failed.
 37/164 Test: t_passive_close
 Command: "/home/bolee/cs144/sponge/Debug/tests/fsm_passive_close"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_passive_close" start time: Sep 28 16:24 CST
+"t_passive_close" start time: Sep 28 16:58 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.02 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"t_passive_close" end time: Sep 28 16:24 CST
+"t_passive_close" end time: Sep 28 16:58 CST
 "t_passive_close" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -555,7 +555,7 @@ Test Passed.
 38/164 Test: t_ack_rst
 Command: "/home/bolee/cs144/sponge/Debug/tests/fsm_ack_rst_relaxed"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_ack_rst" start time: Sep 28 16:24 CST
+"t_ack_rst" start time: Sep 28 16:58 CST
 Output:
 ----------------------------------------------------------
 Test 1
@@ -576,10 +576,10 @@ Test 5
 Warning: Unclean shutdown of TCPConnection
 Warning: Unclean shutdown of TCPConnection
 <end of output>
-Test time =   0.02 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"t_ack_rst" end time: Sep 28 16:24 CST
+"t_ack_rst" end time: Sep 28 16:58 CST
 "t_ack_rst" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -587,14 +587,14 @@ Test Passed.
 39/164 Test: t_ack_rst_win
 Command: "/home/bolee/cs144/sponge/Debug/tests/fsm_ack_rst_win_relaxed"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_ack_rst_win" start time: Sep 28 16:24 CST
+"t_ack_rst_win" start time: Sep 28 16:58 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.03 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_ack_rst_win" end time: Sep 28 16:24 CST
+"t_ack_rst_win" end time: Sep 28 16:58 CST
 "t_ack_rst_win" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -602,17 +602,17 @@ Test Passed.
 40/164 Test: t_connect
 Command: "/home/bolee/cs144/sponge/Debug/tests/fsm_connect_relaxed"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_connect" start time: Sep 28 16:24 CST
+"t_connect" start time: Sep 28 16:58 CST
 Output:
 ----------------------------------------------------------
 Warning: Unclean shutdown of TCPConnection
 Warning: Unclean shutdown of TCPConnection
 Warning: Unclean shutdown of TCPConnection
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_connect" end time: Sep 28 16:24 CST
+"t_connect" end time: Sep 28 16:58 CST
 "t_connect" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -620,15 +620,15 @@ Test Passed.
 41/164 Test: t_listen
 Command: "/home/bolee/cs144/sponge/Debug/tests/fsm_listen_relaxed"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_listen" start time: Sep 28 16:24 CST
+"t_listen" start time: Sep 28 16:58 CST
 Output:
 ----------------------------------------------------------
 Warning: Unclean shutdown of TCPConnection
 <end of output>
-Test time =   0.03 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_listen" end time: Sep 28 16:24 CST
+"t_listen" end time: Sep 28 16:58 CST
 "t_listen" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -636,7 +636,7 @@ Test Passed.
 42/164 Test: t_winsize
 Command: "/home/bolee/cs144/sponge/Debug/tests/fsm_winsize"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_winsize" start time: Sep 28 16:24 CST
+"t_winsize" start time: Sep 28 16:58 CST
 Output:
 ----------------------------------------------------------
 Warning: Unclean shutdown of TCPConnection
@@ -672,10 +672,10 @@ Warning: Unclean shutdown of TCPConnection
 Warning: Unclean shutdown of TCPConnection
 Warning: Unclean shutdown of TCPConnection
 <end of output>
-Test time =   0.32 sec
+Test time =   0.37 sec
 ----------------------------------------------------------
 Test Passed.
-"t_winsize" end time: Sep 28 16:24 CST
+"t_winsize" end time: Sep 28 16:58 CST
 "t_winsize" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -683,7 +683,7 @@ Test Passed.
 43/164 Test: t_retx
 Command: "/home/bolee/cs144/sponge/Debug/tests/fsm_retx_relaxed"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_retx" start time: Sep 28 16:24 CST
+"t_retx" start time: Sep 28 16:58 CST
 Output:
 ----------------------------------------------------------
   check_segment
@@ -699,7 +699,7 @@ Output:
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_retx" end time: Sep 28 16:24 CST
+"t_retx" end time: Sep 28 16:58 CST
 "t_retx" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -707,7 +707,7 @@ Test Passed.
 44/164 Test: t_retx_win
 Command: "/home/bolee/cs144/sponge/Debug/tests/fsm_retx_win"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_retx_win" start time: Sep 28 16:24 CST
+"t_retx_win" start time: Sep 28 16:58 CST
 Output:
 ----------------------------------------------------------
   check_segment
@@ -785,7 +785,7 @@ Warning: Unclean shutdown of TCPConnection
 Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"t_retx_win" end time: Sep 28 16:24 CST
+"t_retx_win" end time: Sep 28 16:58 CST
 "t_retx_win" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -793,107 +793,29 @@ Test Passed.
 45/164 Test: t_loopback
 Command: "/home/bolee/cs144/sponge/Debug/tests/fsm_loopback"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_loopback" start time: Sep 28 16:24 CST
-Output:
-----------------------------------------------------------
-<end of output>
-Test time =   1.08 sec
-----------------------------------------------------------
-Test Failed.
-"t_loopback" end time: Sep 28 16:24 CST
-"t_loopback" time elapsed: 00:00:01
-----------------------------------------------------------
-
-46/164 Testing: t_loopback_win
-46/164 Test: t_loopback_win
-Command: "/home/bolee/cs144/sponge/Debug/tests/fsm_loopback_win"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_loopback_win" start time: Sep 28 16:24 CST
+"t_loopback" start time: Sep 28 16:58 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.94 sec
 ----------------------------------------------------------
 Test Failed.
-"t_loopback_win" end time: Sep 28 16:24 CST
+"t_loopback" end time: Sep 28 16:58 CST
+"t_loopback" time elapsed: 00:00:00
+----------------------------------------------------------
+
+46/164 Testing: t_loopback_win
+46/164 Test: t_loopback_win
+Command: "/home/bolee/cs144/sponge/Debug/tests/fsm_loopback_win"
+Directory: /home/bolee/cs144/sponge/Debug
+"t_loopback_win" start time: Sep 28 16:58 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.93 sec
+----------------------------------------------------------
+Test Failed.
+"t_loopback_win" end time: Sep 28 16:58 CST
 "t_loopback_win" time elapsed: 00:00:00
-----------------------------------------------------------
-
-47/164 Testing: t_reorder
-47/164 Test: t_reorder
-Command: "/home/bolee/cs144/sponge/Debug/tests/fsm_reorder"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_reorder" start time: Sep 28 16:24 CST
-Output:
-----------------------------------------------------------
-<end of output>
-Test time =   0.97 sec
-----------------------------------------------------------
-Test Failed.
-"t_reorder" end time: Sep 28 16:24 CST
-"t_reorder" time elapsed: 00:00:00
-----------------------------------------------------------
-
-48/164 Testing: t_address_dt
-48/164 Test: t_address_dt
-Command: "/home/bolee/cs144/sponge/Debug/doctests/address_dt"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_address_dt" start time: Sep 28 16:24 CST
-Output:
-----------------------------------------------------------
-<end of output>
-Test time =   0.03 sec
-----------------------------------------------------------
-Test Passed.
-"t_address_dt" end time: Sep 28 16:24 CST
-"t_address_dt" time elapsed: 00:00:00
-----------------------------------------------------------
-
-49/164 Testing: t_parser_dt
-49/164 Test: t_parser_dt
-Command: "/home/bolee/cs144/sponge/Debug/doctests/parser_dt"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_parser_dt" start time: Sep 28 16:24 CST
-Output:
-----------------------------------------------------------
-<end of output>
-Test time =   0.01 sec
-----------------------------------------------------------
-Test Passed.
-"t_parser_dt" end time: Sep 28 16:24 CST
-"t_parser_dt" time elapsed: 00:00:00
-----------------------------------------------------------
-
-50/164 Testing: t_socket_dt
-50/164 Test: t_socket_dt
-Command: "/home/bolee/cs144/sponge/Debug/doctests/socket_dt"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_socket_dt" start time: Sep 28 16:24 CST
-Output:
-----------------------------------------------------------
-<end of output>
-Test time =   0.02 sec
-----------------------------------------------------------
-Test Passed.
-"t_socket_dt" end time: Sep 28 16:24 CST
-"t_socket_dt" time elapsed: 00:00:00
-----------------------------------------------------------
-
-51/164 Testing: t_udp_client_send
-51/164 Test: t_udp_client_send
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-ucS"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_udp_client_send" start time: Sep 28 16:24 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:4833... done.
-DEBUG: Inbound stream from 169.254.144.1:4833 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyError in _rt_connect
-<end of output>
-Test time =   6.39 sec
-----------------------------------------------------------
-Test Failed.
-"t_udp_client_send" end time: Sep 28 16:25 CST
-"t_udp_client_send" time elapsed: 00:00:06
 ----------------------------------------------------------
 
