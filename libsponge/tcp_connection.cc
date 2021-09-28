@@ -97,13 +97,13 @@ size_t TCPConnection::write(const string &data) {
 // 再加入到TCPConnection的 _segments_out，真正地将TCPsegment发送出去
 void TCPConnection::_send_segments(){
     // 此处必须要是引用类型，才能指向_sender中的同一个成员变量,才能对其进行操作
-    std::queue<TCPSegment>&sender_segs_out = _sender.segments_out();
+    // std::queue<TCPSegment>&sender_segs_out = _sender.segments_out();
 
     // 对TCPSender的 _segments_out进行遍历，将所有的segment的头部都加上ackno和windowsize
     // 再发送出去
-    while(!sender_segs_out.empty()){
-        TCPSegment seg = sender_segs_out.front();
-        sender_segs_out.pop();
+    while(!_sender.segments_out().empty()){
+        TCPSegment seg = _sender.segments_out().front();
+        _sender.segments_out().pop();
         // 只有当ackno()的返回值非空时，才需要加上
         if(_receiver.ackno().has_value()){
             seg.header().ack = true;

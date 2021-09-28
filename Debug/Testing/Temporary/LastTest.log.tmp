@@ -1,17 +1,17 @@
-Start testing: Sep 28 14:38 CST
+Start testing: Sep 28 16:24 CST
 ----------------------------------------------------------
 1/164 Testing: t_wrapping_ints_cmp
 1/164 Test: t_wrapping_ints_cmp
 Command: "/home/bolee/cs144/sponge/Debug/tests/wrapping_integers_cmp"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_wrapping_ints_cmp" start time: Sep 28 14:38 CST
+"t_wrapping_ints_cmp" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_wrapping_ints_cmp" end time: Sep 28 14:38 CST
+"t_wrapping_ints_cmp" end time: Sep 28 16:24 CST
 "t_wrapping_ints_cmp" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -19,14 +19,14 @@ Test Passed.
 2/164 Test: t_wrapping_ints_unwrap
 Command: "/home/bolee/cs144/sponge/Debug/tests/wrapping_integers_unwrap"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_wrapping_ints_unwrap" start time: Sep 28 14:38 CST
+"t_wrapping_ints_unwrap" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_wrapping_ints_unwrap" end time: Sep 28 14:38 CST
+"t_wrapping_ints_unwrap" end time: Sep 28 16:24 CST
 "t_wrapping_ints_unwrap" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -34,14 +34,14 @@ Test Passed.
 3/164 Test: t_wrapping_ints_wrap
 Command: "/home/bolee/cs144/sponge/Debug/tests/wrapping_integers_wrap"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_wrapping_ints_wrap" start time: Sep 28 14:38 CST
+"t_wrapping_ints_wrap" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_wrapping_ints_wrap" end time: Sep 28 14:38 CST
+"t_wrapping_ints_wrap" end time: Sep 28 16:24 CST
 "t_wrapping_ints_wrap" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -49,14 +49,14 @@ Test Passed.
 4/164 Test: t_wrapping_ints_roundtrip
 Command: "/home/bolee/cs144/sponge/Debug/tests/wrapping_integers_roundtrip"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_wrapping_ints_roundtrip" start time: Sep 28 14:38 CST
+"t_wrapping_ints_roundtrip" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   1.04 sec
+Test time =   1.09 sec
 ----------------------------------------------------------
 Test Passed.
-"t_wrapping_ints_roundtrip" end time: Sep 28 14:38 CST
+"t_wrapping_ints_roundtrip" end time: Sep 28 16:24 CST
 "t_wrapping_ints_roundtrip" time elapsed: 00:00:01
 ----------------------------------------------------------
 
@@ -64,14 +64,14 @@ Test Passed.
 5/164 Test: t_recv_connect
 Command: "/home/bolee/cs144/sponge/Debug/tests/recv_connect"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_recv_connect" start time: Sep 28 14:38 CST
+"t_recv_connect" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_recv_connect" end time: Sep 28 14:38 CST
+"t_recv_connect" end time: Sep 28 16:24 CST
 "t_recv_connect" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -79,14 +79,14 @@ Test Passed.
 6/164 Test: t_recv_transmit
 Command: "/home/bolee/cs144/sponge/Debug/tests/recv_transmit"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_recv_transmit" start time: Sep 28 14:38 CST
+"t_recv_transmit" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.52 sec
+Test time =   0.55 sec
 ----------------------------------------------------------
 Test Passed.
-"t_recv_transmit" end time: Sep 28 14:38 CST
+"t_recv_transmit" end time: Sep 28 16:24 CST
 "t_recv_transmit" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -94,14 +94,14 @@ Test Passed.
 7/164 Test: t_recv_window
 Command: "/home/bolee/cs144/sponge/Debug/tests/recv_window"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_recv_window" start time: Sep 28 14:38 CST
+"t_recv_window" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.01 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"t_recv_window" end time: Sep 28 14:38 CST
+"t_recv_window" end time: Sep 28 16:24 CST
 "t_recv_window" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -109,14 +109,14 @@ Test Passed.
 8/164 Test: t_recv_reorder
 Command: "/home/bolee/cs144/sponge/Debug/tests/recv_reorder"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_recv_reorder" start time: Sep 28 14:38 CST
+"t_recv_reorder" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_recv_reorder" end time: Sep 28 14:38 CST
+"t_recv_reorder" end time: Sep 28 16:24 CST
 "t_recv_reorder" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -124,14 +124,14 @@ Test Passed.
 9/164 Test: t_recv_close
 Command: "/home/bolee/cs144/sponge/Debug/tests/recv_close"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_recv_close" start time: Sep 28 14:38 CST
+"t_recv_close" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.01 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"t_recv_close" end time: Sep 28 14:38 CST
+"t_recv_close" end time: Sep 28 16:24 CST
 "t_recv_close" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -139,14 +139,14 @@ Test Passed.
 10/164 Test: t_recv_special
 Command: "/home/bolee/cs144/sponge/Debug/tests/recv_special"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_recv_special" start time: Sep 28 14:38 CST
+"t_recv_special" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_recv_special" end time: Sep 28 14:38 CST
+"t_recv_special" end time: Sep 28 16:24 CST
 "t_recv_special" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -154,14 +154,14 @@ Test Passed.
 11/164 Test: t_send_connect
 Command: "/home/bolee/cs144/sponge/Debug/tests/send_connect"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_send_connect" start time: Sep 28 14:38 CST
+"t_send_connect" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_send_connect" end time: Sep 28 14:38 CST
+"t_send_connect" end time: Sep 28 16:24 CST
 "t_send_connect" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -169,14 +169,14 @@ Test Passed.
 12/164 Test: t_send_transmit
 Command: "/home/bolee/cs144/sponge/Debug/tests/send_transmit"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_send_transmit" start time: Sep 28 14:38 CST
+"t_send_transmit" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.42 sec
+Test time =   0.45 sec
 ----------------------------------------------------------
 Test Passed.
-"t_send_transmit" end time: Sep 28 14:38 CST
+"t_send_transmit" end time: Sep 28 16:24 CST
 "t_send_transmit" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -184,14 +184,14 @@ Test Passed.
 13/164 Test: t_send_retx
 Command: "/home/bolee/cs144/sponge/Debug/tests/send_retx"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_send_retx" start time: Sep 28 14:38 CST
+"t_send_retx" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_send_retx" end time: Sep 28 14:38 CST
+"t_send_retx" end time: Sep 28 16:24 CST
 "t_send_retx" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -199,14 +199,14 @@ Test Passed.
 14/164 Test: t_send_window
 Command: "/home/bolee/cs144/sponge/Debug/tests/send_window"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_send_window" start time: Sep 28 14:38 CST
+"t_send_window" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.09 sec
+Test time =   0.11 sec
 ----------------------------------------------------------
 Test Passed.
-"t_send_window" end time: Sep 28 14:38 CST
+"t_send_window" end time: Sep 28 16:24 CST
 "t_send_window" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -214,14 +214,14 @@ Test Passed.
 15/164 Test: t_send_ack
 Command: "/home/bolee/cs144/sponge/Debug/tests/send_ack"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_send_ack" start time: Sep 28 14:38 CST
+"t_send_ack" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_send_ack" end time: Sep 28 14:38 CST
+"t_send_ack" end time: Sep 28 16:24 CST
 "t_send_ack" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -229,14 +229,14 @@ Test Passed.
 16/164 Test: t_send_close
 Command: "/home/bolee/cs144/sponge/Debug/tests/send_close"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_send_close" start time: Sep 28 14:38 CST
+"t_send_close" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.01 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"t_send_close" end time: Sep 28 14:38 CST
+"t_send_close" end time: Sep 28 16:24 CST
 "t_send_close" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -244,14 +244,14 @@ Test Passed.
 17/164 Test: t_send_extra
 Command: "/home/bolee/cs144/sponge/Debug/tests/send_extra"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_send_extra" start time: Sep 28 14:38 CST
+"t_send_extra" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.02 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"t_send_extra" end time: Sep 28 14:38 CST
+"t_send_extra" end time: Sep 28 16:24 CST
 "t_send_extra" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -259,7 +259,7 @@ Test Passed.
 18/164 Test: t_strm_reassem_single
 Command: "/home/bolee/cs144/sponge/Debug/tests/fsm_stream_reassembler_single"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_strm_reassem_single" start time: Sep 28 14:38 CST
+"t_strm_reassem_single" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 i really want to fuck you!!!!!!!!!!!!!
@@ -267,7 +267,7 @@ i really want to fuck you!!!!!!!!!!!!!
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_single" end time: Sep 28 14:38 CST
+"t_strm_reassem_single" end time: Sep 28 16:24 CST
 "t_strm_reassem_single" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -275,14 +275,14 @@ Test Passed.
 19/164 Test: t_strm_reassem_seq
 Command: "/home/bolee/cs144/sponge/Debug/tests/fsm_stream_reassembler_seq"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_strm_reassem_seq" start time: Sep 28 14:38 CST
+"t_strm_reassem_seq" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.03 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_seq" end time: Sep 28 14:38 CST
+"t_strm_reassem_seq" end time: Sep 28 16:24 CST
 "t_strm_reassem_seq" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -290,14 +290,14 @@ Test Passed.
 20/164 Test: t_strm_reassem_dup
 Command: "/home/bolee/cs144/sponge/Debug/tests/fsm_stream_reassembler_dup"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_strm_reassem_dup" start time: Sep 28 14:38 CST
+"t_strm_reassem_dup" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.05 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_dup" end time: Sep 28 14:38 CST
+"t_strm_reassem_dup" end time: Sep 28 16:24 CST
 "t_strm_reassem_dup" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -305,14 +305,14 @@ Test Passed.
 21/164 Test: t_strm_reassem_holes
 Command: "/home/bolee/cs144/sponge/Debug/tests/fsm_stream_reassembler_holes"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_strm_reassem_holes" start time: Sep 28 14:38 CST
+"t_strm_reassem_holes" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_holes" end time: Sep 28 14:38 CST
+"t_strm_reassem_holes" end time: Sep 28 16:24 CST
 "t_strm_reassem_holes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -320,14 +320,14 @@ Test Passed.
 22/164 Test: t_strm_reassem_many
 Command: "/home/bolee/cs144/sponge/Debug/tests/fsm_stream_reassembler_many"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_strm_reassem_many" start time: Sep 28 14:38 CST
+"t_strm_reassem_many" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.37 sec
+Test time =   0.45 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_many" end time: Sep 28 14:38 CST
+"t_strm_reassem_many" end time: Sep 28 16:24 CST
 "t_strm_reassem_many" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -335,14 +335,14 @@ Test Passed.
 23/164 Test: t_strm_reassem_overlapping
 Command: "/home/bolee/cs144/sponge/Debug/tests/fsm_stream_reassembler_overlapping"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_strm_reassem_overlapping" start time: Sep 28 14:38 CST
+"t_strm_reassem_overlapping" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_overlapping" end time: Sep 28 14:38 CST
+"t_strm_reassem_overlapping" end time: Sep 28 16:24 CST
 "t_strm_reassem_overlapping" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -350,14 +350,14 @@ Test Passed.
 24/164 Test: t_strm_reassem_win
 Command: "/home/bolee/cs144/sponge/Debug/tests/fsm_stream_reassembler_win"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_strm_reassem_win" start time: Sep 28 14:38 CST
+"t_strm_reassem_win" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.55 sec
+Test time =   0.54 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_win" end time: Sep 28 14:38 CST
+"t_strm_reassem_win" end time: Sep 28 16:24 CST
 "t_strm_reassem_win" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -365,14 +365,14 @@ Test Passed.
 25/164 Test: t_strm_reassem_cap
 Command: "/home/bolee/cs144/sponge/Debug/tests/fsm_stream_reassembler_cap"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_strm_reassem_cap" start time: Sep 28 14:38 CST
+"t_strm_reassem_cap" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   1.03 sec
+Test time =   1.08 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_cap" end time: Sep 28 14:38 CST
+"t_strm_reassem_cap" end time: Sep 28 16:24 CST
 "t_strm_reassem_cap" time elapsed: 00:00:01
 ----------------------------------------------------------
 
@@ -380,14 +380,14 @@ Test Passed.
 26/164 Test: t_byte_stream_construction
 Command: "/home/bolee/cs144/sponge/Debug/tests/byte_stream_construction"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_byte_stream_construction" start time: Sep 28 14:38 CST
+"t_byte_stream_construction" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_byte_stream_construction" end time: Sep 28 14:38 CST
+"t_byte_stream_construction" end time: Sep 28 16:24 CST
 "t_byte_stream_construction" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -395,14 +395,14 @@ Test Passed.
 27/164 Test: t_byte_stream_one_write
 Command: "/home/bolee/cs144/sponge/Debug/tests/byte_stream_one_write"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_byte_stream_one_write" start time: Sep 28 14:38 CST
+"t_byte_stream_one_write" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_byte_stream_one_write" end time: Sep 28 14:38 CST
+"t_byte_stream_one_write" end time: Sep 28 16:24 CST
 "t_byte_stream_one_write" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -410,14 +410,14 @@ Test Passed.
 28/164 Test: t_byte_stream_two_writes
 Command: "/home/bolee/cs144/sponge/Debug/tests/byte_stream_two_writes"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_byte_stream_two_writes" start time: Sep 28 14:38 CST
+"t_byte_stream_two_writes" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_byte_stream_two_writes" end time: Sep 28 14:38 CST
+"t_byte_stream_two_writes" end time: Sep 28 16:24 CST
 "t_byte_stream_two_writes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -425,14 +425,14 @@ Test Passed.
 29/164 Test: t_byte_stream_capacity
 Command: "/home/bolee/cs144/sponge/Debug/tests/byte_stream_capacity"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_byte_stream_capacity" start time: Sep 28 14:38 CST
+"t_byte_stream_capacity" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   3.39 sec
+Test time =   3.69 sec
 ----------------------------------------------------------
 Test Passed.
-"t_byte_stream_capacity" end time: Sep 28 14:38 CST
+"t_byte_stream_capacity" end time: Sep 28 16:24 CST
 "t_byte_stream_capacity" time elapsed: 00:00:03
 ----------------------------------------------------------
 
@@ -440,14 +440,14 @@ Test Passed.
 30/164 Test: t_byte_stream_many_writes
 Command: "/home/bolee/cs144/sponge/Debug/tests/byte_stream_many_writes"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_byte_stream_many_writes" start time: Sep 28 14:38 CST
+"t_byte_stream_many_writes" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"t_byte_stream_many_writes" end time: Sep 28 14:38 CST
+"t_byte_stream_many_writes" end time: Sep 28 16:24 CST
 "t_byte_stream_many_writes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -455,7 +455,7 @@ Test Passed.
 31/164 Test: t_webget
 Command: "/home/bolee/cs144/sponge/tests/webget_t.sh"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_webget" start time: Sep 28 14:38 CST
+"t_webget" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 HTTP/1.1 200 OK
@@ -463,10 +463,10 @@ Content-type: text/plain
 
 7SmXqWkrLKzVBCEalbSPqBcvs11Pw263K7x4Wv3JckI
 <end of output>
-Test time =   1.13 sec
+Test time =   1.41 sec
 ----------------------------------------------------------
 Test Passed.
-"t_webget" end time: Sep 28 14:38 CST
+"t_webget" end time: Sep 28 16:24 CST
 "t_webget" time elapsed: 00:00:01
 ----------------------------------------------------------
 
@@ -474,14 +474,14 @@ Test Passed.
 34/164 Test: t_tcp_parser
 Command: "/home/bolee/cs144/sponge/Debug/tests/tcp_parser" "/home/bolee/cs144/sponge/tests/ipv4_parser.data"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_tcp_parser" start time: Sep 28 14:38 CST
+"t_tcp_parser" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"t_tcp_parser" end time: Sep 28 14:38 CST
+"t_tcp_parser" end time: Sep 28 16:24 CST
 "t_tcp_parser" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -489,14 +489,14 @@ Test Passed.
 35/164 Test: t_ipv4_parser
 Command: "/home/bolee/cs144/sponge/Debug/tests/ipv4_parser" "/home/bolee/cs144/sponge/tests/ipv4_parser.data"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_ipv4_parser" start time: Sep 28 14:38 CST
+"t_ipv4_parser" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.03 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"t_ipv4_parser" end time: Sep 28 14:38 CST
+"t_ipv4_parser" end time: Sep 28 16:24 CST
 "t_ipv4_parser" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -504,7 +504,7 @@ Test Passed.
 36/164 Test: t_active_close
 Command: "/home/bolee/cs144/sponge/Debug/tests/fsm_active_close"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_active_close" start time: Sep 28 14:38 CST
+"t_active_close" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 Test Failure on expectation:
@@ -529,10 +529,10 @@ List of steps that executed successfully:
 Warning: Unclean shutdown of TCPConnection
 The TCP has `state = sender=`stream finished and fully acknowledged`, receiver=`input to stream has ended`, active=1, linger_after_streams_finish=1`, but state was expected to **not** be `sender=`stream finished and fully acknowledged`, receiver=`input to stream has ended`, active=1, linger_after_streams_finish=1`
 <end of output>
-Test time =   0.01 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Failed.
-"t_active_close" end time: Sep 28 14:38 CST
+"t_active_close" end time: Sep 28 16:24 CST
 "t_active_close" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -540,14 +540,14 @@ Test Failed.
 37/164 Test: t_passive_close
 Command: "/home/bolee/cs144/sponge/Debug/tests/fsm_passive_close"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_passive_close" start time: Sep 28 14:38 CST
+"t_passive_close" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.01 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"t_passive_close" end time: Sep 28 14:38 CST
+"t_passive_close" end time: Sep 28 16:24 CST
 "t_passive_close" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -555,7 +555,7 @@ Test Passed.
 38/164 Test: t_ack_rst
 Command: "/home/bolee/cs144/sponge/Debug/tests/fsm_ack_rst_relaxed"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_ack_rst" start time: Sep 28 14:38 CST
+"t_ack_rst" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 Test 1
@@ -579,7 +579,7 @@ Warning: Unclean shutdown of TCPConnection
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"t_ack_rst" end time: Sep 28 14:38 CST
+"t_ack_rst" end time: Sep 28 16:24 CST
 "t_ack_rst" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -587,14 +587,14 @@ Test Passed.
 39/164 Test: t_ack_rst_win
 Command: "/home/bolee/cs144/sponge/Debug/tests/fsm_ack_rst_win_relaxed"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_ack_rst_win" start time: Sep 28 14:38 CST
+"t_ack_rst_win" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.02 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"t_ack_rst_win" end time: Sep 28 14:38 CST
+"t_ack_rst_win" end time: Sep 28 16:24 CST
 "t_ack_rst_win" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -602,17 +602,17 @@ Test Passed.
 40/164 Test: t_connect
 Command: "/home/bolee/cs144/sponge/Debug/tests/fsm_connect_relaxed"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_connect" start time: Sep 28 14:38 CST
+"t_connect" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 Warning: Unclean shutdown of TCPConnection
 Warning: Unclean shutdown of TCPConnection
 Warning: Unclean shutdown of TCPConnection
 <end of output>
-Test time =   0.01 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"t_connect" end time: Sep 28 14:38 CST
+"t_connect" end time: Sep 28 16:24 CST
 "t_connect" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -620,15 +620,15 @@ Test Passed.
 41/164 Test: t_listen
 Command: "/home/bolee/cs144/sponge/Debug/tests/fsm_listen_relaxed"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_listen" start time: Sep 28 14:38 CST
+"t_listen" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 Warning: Unclean shutdown of TCPConnection
 <end of output>
-Test time =   0.02 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"t_listen" end time: Sep 28 14:38 CST
+"t_listen" end time: Sep 28 16:24 CST
 "t_listen" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -636,7 +636,7 @@ Test Passed.
 42/164 Test: t_winsize
 Command: "/home/bolee/cs144/sponge/Debug/tests/fsm_winsize"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_winsize" start time: Sep 28 14:38 CST
+"t_winsize" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 Warning: Unclean shutdown of TCPConnection
@@ -672,10 +672,10 @@ Warning: Unclean shutdown of TCPConnection
 Warning: Unclean shutdown of TCPConnection
 Warning: Unclean shutdown of TCPConnection
 <end of output>
-Test time =   0.31 sec
+Test time =   0.32 sec
 ----------------------------------------------------------
 Test Passed.
-"t_winsize" end time: Sep 28 14:38 CST
+"t_winsize" end time: Sep 28 16:24 CST
 "t_winsize" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -683,7 +683,7 @@ Test Passed.
 43/164 Test: t_retx
 Command: "/home/bolee/cs144/sponge/Debug/tests/fsm_retx_relaxed"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_retx" start time: Sep 28 14:38 CST
+"t_retx" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
   check_segment
@@ -696,10 +696,10 @@ Output:
   check_segment
   check_segment
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_retx" end time: Sep 28 14:38 CST
+"t_retx" end time: Sep 28 16:24 CST
 "t_retx" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -707,7 +707,7 @@ Test Passed.
 44/164 Test: t_retx_win
 Command: "/home/bolee/cs144/sponge/Debug/tests/fsm_retx_win"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_retx_win" start time: Sep 28 14:38 CST
+"t_retx_win" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
   check_segment
@@ -782,10 +782,10 @@ Warning: Unclean shutdown of TCPConnection
   check_segment
 Warning: Unclean shutdown of TCPConnection
 <end of output>
-Test time =   0.02 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"t_retx_win" end time: Sep 28 14:38 CST
+"t_retx_win" end time: Sep 28 16:24 CST
 "t_retx_win" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -793,29 +793,29 @@ Test Passed.
 45/164 Test: t_loopback
 Command: "/home/bolee/cs144/sponge/Debug/tests/fsm_loopback"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_loopback" start time: Sep 28 14:38 CST
+"t_loopback" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.90 sec
+Test time =   1.08 sec
 ----------------------------------------------------------
 Test Failed.
-"t_loopback" end time: Sep 28 14:38 CST
-"t_loopback" time elapsed: 00:00:00
+"t_loopback" end time: Sep 28 16:24 CST
+"t_loopback" time elapsed: 00:00:01
 ----------------------------------------------------------
 
 46/164 Testing: t_loopback_win
 46/164 Test: t_loopback_win
 Command: "/home/bolee/cs144/sponge/Debug/tests/fsm_loopback_win"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_loopback_win" start time: Sep 28 14:38 CST
+"t_loopback_win" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.86 sec
+Test time =   0.94 sec
 ----------------------------------------------------------
 Test Failed.
-"t_loopback_win" end time: Sep 28 14:38 CST
+"t_loopback_win" end time: Sep 28 16:24 CST
 "t_loopback_win" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -823,14 +823,14 @@ Test Failed.
 47/164 Test: t_reorder
 Command: "/home/bolee/cs144/sponge/Debug/tests/fsm_reorder"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_reorder" start time: Sep 28 14:38 CST
+"t_reorder" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.93 sec
+Test time =   0.97 sec
 ----------------------------------------------------------
 Test Failed.
-"t_reorder" end time: Sep 28 14:38 CST
+"t_reorder" end time: Sep 28 16:24 CST
 "t_reorder" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -838,14 +838,14 @@ Test Failed.
 48/164 Test: t_address_dt
 Command: "/home/bolee/cs144/sponge/Debug/doctests/address_dt"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_address_dt" start time: Sep 28 14:38 CST
+"t_address_dt" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.02 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"t_address_dt" end time: Sep 28 14:38 CST
+"t_address_dt" end time: Sep 28 16:24 CST
 "t_address_dt" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -853,14 +853,14 @@ Test Passed.
 49/164 Test: t_parser_dt
 Command: "/home/bolee/cs144/sponge/Debug/doctests/parser_dt"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_parser_dt" start time: Sep 28 14:38 CST
+"t_parser_dt" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_parser_dt" end time: Sep 28 14:38 CST
+"t_parser_dt" end time: Sep 28 16:24 CST
 "t_parser_dt" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -868,14 +868,14 @@ Test Passed.
 50/164 Test: t_socket_dt
 Command: "/home/bolee/cs144/sponge/Debug/doctests/socket_dt"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_socket_dt" start time: Sep 28 14:38 CST
+"t_socket_dt" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"t_socket_dt" end time: Sep 28 14:38 CST
+"t_socket_dt" end time: Sep 28 16:24 CST
 "t_socket_dt" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -883,1133 +883,17 @@ Test Passed.
 51/164 Test: t_udp_client_send
 Command: "/home/bolee/cs144/sponge/txrx.sh" "-ucS"
 Directory: /home/bolee/cs144/sponge/Debug
-"t_udp_client_send" start time: Sep 28 14:38 CST
+"t_udp_client_send" start time: Sep 28 16:24 CST
 Output:
 ----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:28698... done.
-DEBUG: Inbound stream from 169.254.144.1:28698 finished with an error/reset.
+DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:4833... done.
+DEBUG: Inbound stream from 169.254.144.1:4833 finished with an error/reset.
 DEBUG: TCP connection finished uncleanlyError in _rt_connect
 <end of output>
-Test time =   6.37 sec
+Test time =   6.39 sec
 ----------------------------------------------------------
 Test Failed.
-"t_udp_client_send" end time: Sep 28 14:38 CST
+"t_udp_client_send" end time: Sep 28 16:25 CST
 "t_udp_client_send" time elapsed: 00:00:06
-----------------------------------------------------------
-
-52/164 Testing: t_udp_server_send
-52/164 Test: t_udp_server_send
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-usS"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_udp_server_send" start time: Sep 28 14:38 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:5717... done.
-DEBUG: Inbound stream from 169.254.144.1:5717 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyDEBUG: Waiting for clean shutdown... done.
-<end of output>
-Test time =  10.04 sec
-----------------------------------------------------------
-Test Failed.
-"t_udp_server_send" end time: Sep 28 14:39 CST
-"t_udp_server_send" time elapsed: 00:00:10
-----------------------------------------------------------
-
-53/164 Testing: t_udp_client_recv
-53/164 Test: t_udp_client_recv
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-ucR"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_udp_client_recv" start time: Sep 28 14:39 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:5599... done.
-DEBUG: Inbound stream from 169.254.144.1:5599 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyDEBUG: Waiting for clean shutdown... done.
-<end of output>
-Test time =  10.04 sec
-----------------------------------------------------------
-Test Failed.
-"t_udp_client_recv" end time: Sep 28 14:39 CST
-"t_udp_client_recv" time elapsed: 00:00:10
-----------------------------------------------------------
-
-54/164 Testing: t_udp_server_recv
-54/164 Test: t_udp_server_recv
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-usR"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_udp_server_recv" start time: Sep 28 14:39 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:33692... done.
-DEBUG: Inbound stream from 169.254.144.1:33692 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyError in _rt_connect
-<end of output>
-Test time =   6.40 sec
-----------------------------------------------------------
-Test Failed.
-"t_udp_server_recv" end time: Sep 28 14:39 CST
-"t_udp_server_recv" time elapsed: 00:00:06
-----------------------------------------------------------
-
-55/164 Testing: t_udp_client_dupl
-55/164 Test: t_udp_client_dupl
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-ucD"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_udp_client_dupl" start time: Sep 28 14:39 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:10459... done.
-DEBUG: Inbound stream from 169.254.144.1:10459 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyError in _rt_connect
-<end of output>
-Test time =   6.42 sec
-----------------------------------------------------------
-Test Failed.
-"t_udp_client_dupl" end time: Sep 28 14:39 CST
-"t_udp_client_dupl" time elapsed: 00:00:06
-----------------------------------------------------------
-
-56/164 Testing: t_udp_server_dupl
-56/164 Test: t_udp_server_dupl
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-usD"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_udp_server_dupl" start time: Sep 28 14:39 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:2916... done.
-DEBUG: Inbound stream from 169.254.144.1:2916 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyError in _rt_connect
-<end of output>
-Test time =   6.38 sec
-----------------------------------------------------------
-Test Failed.
-"t_udp_server_dupl" end time: Sep 28 14:39 CST
-"t_udp_server_dupl" time elapsed: 00:00:06
-----------------------------------------------------------
-
-57/164 Testing: t_ucS_1M_32k
-57/164 Test: t_ucS_1M_32k
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-ucSd" "1M" "-w" "32K"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_ucS_1M_32k" start time: Sep 28 14:39 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:3400... done.
-DEBUG: Inbound stream from 169.254.144.1:3400 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyError in _rt_connect
-<end of output>
-Test time =   6.46 sec
-----------------------------------------------------------
-Test Failed.
-"t_ucS_1M_32k" end time: Sep 28 14:39 CST
-"t_ucS_1M_32k" time elapsed: 00:00:06
-----------------------------------------------------------
-
-58/164 Testing: t_ucS_128K_8K
-58/164 Test: t_ucS_128K_8K
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-ucSd" "128K" "-w" "8K"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_ucS_128K_8K" start time: Sep 28 14:39 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:7302... done.
-DEBUG: Inbound stream from 169.254.144.1:7302 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyError in _rt_connect
-<end of output>
-Test time =   6.41 sec
-----------------------------------------------------------
-Test Failed.
-"t_ucS_128K_8K" end time: Sep 28 14:39 CST
-"t_ucS_128K_8K" time elapsed: 00:00:06
-----------------------------------------------------------
-
-59/164 Testing: t_ucS_16_1
-59/164 Test: t_ucS_16_1
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-ucSd" "16" "-w" "1"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_ucS_16_1" start time: Sep 28 14:39 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:18696... done.
-DEBUG: Inbound stream from 169.254.144.1:18696 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyError in _rt_connect
-<end of output>
-Test time =   6.40 sec
-----------------------------------------------------------
-Test Failed.
-"t_ucS_16_1" end time: Sep 28 14:39 CST
-"t_ucS_16_1" time elapsed: 00:00:06
-----------------------------------------------------------
-
-60/164 Testing: t_ucS_32K_d
-60/164 Test: t_ucS_32K_d
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-ucSd" "32K"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_ucS_32K_d" start time: Sep 28 14:39 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:22333... done.
-DEBUG: Inbound stream from 169.254.144.1:22333 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyError in _rt_connect
-<end of output>
-Test time =   6.40 sec
-----------------------------------------------------------
-Test Failed.
-"t_ucS_32K_d" end time: Sep 28 14:40 CST
-"t_ucS_32K_d" time elapsed: 00:00:06
-----------------------------------------------------------
-
-61/164 Testing: t_ucR_1M_32k
-61/164 Test: t_ucR_1M_32k
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-ucRd" "1M" "-w" "32K"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_ucR_1M_32k" start time: Sep 28 14:40 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:14288... done.
-DEBUG: Inbound stream from 169.254.144.1:14288 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyDEBUG: Waiting for clean shutdown... done.
-<end of output>
-Test time =  10.04 sec
-----------------------------------------------------------
-Test Failed.
-"t_ucR_1M_32k" end time: Sep 28 14:40 CST
-"t_ucR_1M_32k" time elapsed: 00:00:10
-----------------------------------------------------------
-
-62/164 Testing: t_ucR_128K_8K
-62/164 Test: t_ucR_128K_8K
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-ucRd" "128K" "-w" "8K"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_ucR_128K_8K" start time: Sep 28 14:40 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:21472... done.
-DEBUG: Inbound stream from 169.254.144.1:21472 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyDEBUG: Waiting for clean shutdown... done.
-<end of output>
-Test time =  10.04 sec
-----------------------------------------------------------
-Test Failed.
-"t_ucR_128K_8K" end time: Sep 28 14:40 CST
-"t_ucR_128K_8K" time elapsed: 00:00:10
-----------------------------------------------------------
-
-63/164 Testing: t_ucR_16_1
-63/164 Test: t_ucR_16_1
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-ucRd" "16" "-w" "1"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_ucR_16_1" start time: Sep 28 14:40 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:19487... done.
-DEBUG: Inbound stream from 169.254.144.1:19487 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyDEBUG: Waiting for clean shutdown... done.
-<end of output>
-Test time =  10.04 sec
-----------------------------------------------------------
-Test Failed.
-"t_ucR_16_1" end time: Sep 28 14:40 CST
-"t_ucR_16_1" time elapsed: 00:00:10
-----------------------------------------------------------
-
-64/164 Testing: t_ucR_32K_d
-64/164 Test: t_ucR_32K_d
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-ucRd" "32K"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_ucR_32K_d" start time: Sep 28 14:40 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:20473... done.
-DEBUG: Inbound stream from 169.254.144.1:20473 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyDEBUG: Waiting for clean shutdown... done.
-<end of output>
-Test time =  10.04 sec
-----------------------------------------------------------
-Test Failed.
-"t_ucR_32K_d" end time: Sep 28 14:40 CST
-"t_ucR_32K_d" time elapsed: 00:00:10
-----------------------------------------------------------
-
-65/164 Testing: t_ucD_1M_32k
-65/164 Test: t_ucD_1M_32k
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-ucDd" "1M" "-w" "32K"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_ucD_1M_32k" start time: Sep 28 14:40 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:5973... done.
-DEBUG: Inbound stream from 169.254.144.1:5973 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyError in _rt_connect
-<end of output>
-Test time =   6.47 sec
-----------------------------------------------------------
-Test Failed.
-"t_ucD_1M_32k" end time: Sep 28 14:40 CST
-"t_ucD_1M_32k" time elapsed: 00:00:06
-----------------------------------------------------------
-
-66/164 Testing: t_ucD_128K_8K
-66/164 Test: t_ucD_128K_8K
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-ucDd" "128K" "-w" "8K"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_ucD_128K_8K" start time: Sep 28 14:40 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:24921... done.
-DEBUG: Inbound stream from 169.254.144.1:24921 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyError in _rt_connect
-<end of output>
-Test time =   6.41 sec
-----------------------------------------------------------
-Test Failed.
-"t_ucD_128K_8K" end time: Sep 28 14:40 CST
-"t_ucD_128K_8K" time elapsed: 00:00:06
-----------------------------------------------------------
-
-67/164 Testing: t_ucD_16_1
-67/164 Test: t_ucD_16_1
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-ucDd" "16" "-w" "1"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_ucD_16_1" start time: Sep 28 14:40 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:12882... done.
-DEBUG: Inbound stream from 169.254.144.1:12882 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyError in _rt_connect
-<end of output>
-Test time =   6.41 sec
-----------------------------------------------------------
-Test Failed.
-"t_ucD_16_1" end time: Sep 28 14:41 CST
-"t_ucD_16_1" time elapsed: 00:00:06
-----------------------------------------------------------
-
-68/164 Testing: t_ucD_32K_d
-68/164 Test: t_ucD_32K_d
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-ucDd" "32K"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_ucD_32K_d" start time: Sep 28 14:41 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:21988... done.
-DEBUG: Inbound stream from 169.254.144.1:21988 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyError in _rt_connect
-<end of output>
-Test time =   6.41 sec
-----------------------------------------------------------
-Test Failed.
-"t_ucD_32K_d" end time: Sep 28 14:41 CST
-"t_ucD_32K_d" time elapsed: 00:00:06
-----------------------------------------------------------
-
-69/164 Testing: t_usS_1M_32k
-69/164 Test: t_usS_1M_32k
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-usSd" "1M" "-w" "32K"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_usS_1M_32k" start time: Sep 28 14:41 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:16893... done.
-DEBUG: Inbound stream from 169.254.144.1:16893 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyDEBUG: Waiting for clean shutdown... done.
-<end of output>
-Test time =  10.04 sec
-----------------------------------------------------------
-Test Failed.
-"t_usS_1M_32k" end time: Sep 28 14:41 CST
-"t_usS_1M_32k" time elapsed: 00:00:10
-----------------------------------------------------------
-
-70/164 Testing: t_usS_128K_8K
-70/164 Test: t_usS_128K_8K
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-usSd" "128K" "-w" "8K"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_usS_128K_8K" start time: Sep 28 14:41 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:24724... done.
-DEBUG: Inbound stream from 169.254.144.1:24724 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyDEBUG: Waiting for clean shutdown... done.
-<end of output>
-Test time =  10.04 sec
-----------------------------------------------------------
-Test Failed.
-"t_usS_128K_8K" end time: Sep 28 14:41 CST
-"t_usS_128K_8K" time elapsed: 00:00:10
-----------------------------------------------------------
-
-71/164 Testing: t_usS_16_1
-71/164 Test: t_usS_16_1
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-usSd" "16" "-w" "1"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_usS_16_1" start time: Sep 28 14:41 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:17641... done.
-DEBUG: Inbound stream from 169.254.144.1:17641 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyDEBUG: Waiting for clean shutdown... done.
-<end of output>
-Test time =  10.04 sec
-----------------------------------------------------------
-Test Failed.
-"t_usS_16_1" end time: Sep 28 14:41 CST
-"t_usS_16_1" time elapsed: 00:00:10
-----------------------------------------------------------
-
-72/164 Testing: t_usS_32K_d
-72/164 Test: t_usS_32K_d
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-usSd" "32K"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_usS_32K_d" start time: Sep 28 14:41 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:2409... done.
-DEBUG: Inbound stream from 169.254.144.1:2409 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyDEBUG: Waiting for clean shutdown... done.
-<end of output>
-Test time =  10.04 sec
-----------------------------------------------------------
-Test Failed.
-"t_usS_32K_d" end time: Sep 28 14:41 CST
-"t_usS_32K_d" time elapsed: 00:00:10
-----------------------------------------------------------
-
-73/164 Testing: t_usR_1M_32k
-73/164 Test: t_usR_1M_32k
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-usRd" "1M" "-w" "32K"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_usR_1M_32k" start time: Sep 28 14:41 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:16186... done.
-DEBUG: Inbound stream from 169.254.144.1:16186 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyError in _rt_connect
-<end of output>
-Test time =   6.49 sec
-----------------------------------------------------------
-Test Failed.
-"t_usR_1M_32k" end time: Sep 28 14:41 CST
-"t_usR_1M_32k" time elapsed: 00:00:06
-----------------------------------------------------------
-
-74/164 Testing: t_usR_128K_8K
-74/164 Test: t_usR_128K_8K
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-usRd" "128K" "-w" "8K"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_usR_128K_8K" start time: Sep 28 14:41 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:32238... done.
-DEBUG: Inbound stream from 169.254.144.1:32238 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyError in _rt_connect
-<end of output>
-Test time =   6.42 sec
-----------------------------------------------------------
-Test Failed.
-"t_usR_128K_8K" end time: Sep 28 14:42 CST
-"t_usR_128K_8K" time elapsed: 00:00:06
-----------------------------------------------------------
-
-75/164 Testing: t_usR_16_1
-75/164 Test: t_usR_16_1
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-usRd" "16" "-w" "1"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_usR_16_1" start time: Sep 28 14:42 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:3246... done.
-DEBUG: Inbound stream from 169.254.144.1:3246 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyError in _rt_connect
-<end of output>
-Test time =   6.40 sec
-----------------------------------------------------------
-Test Failed.
-"t_usR_16_1" end time: Sep 28 14:42 CST
-"t_usR_16_1" time elapsed: 00:00:06
-----------------------------------------------------------
-
-76/164 Testing: t_usR_32K_d
-76/164 Test: t_usR_32K_d
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-usRd" "32K"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_usR_32K_d" start time: Sep 28 14:42 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:29270... done.
-DEBUG: Inbound stream from 169.254.144.1:29270 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyError in _rt_connect
-<end of output>
-Test time =   6.40 sec
-----------------------------------------------------------
-Test Failed.
-"t_usR_32K_d" end time: Sep 28 14:42 CST
-"t_usR_32K_d" time elapsed: 00:00:06
-----------------------------------------------------------
-
-77/164 Testing: t_usD_1M_32k
-77/164 Test: t_usD_1M_32k
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-usDd" "1M" "-w" "32K"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_usD_1M_32k" start time: Sep 28 14:42 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:21408... done.
-DEBUG: Inbound stream from 169.254.144.1:21408 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyError in _rt_connect
-<end of output>
-Test time =   6.46 sec
-----------------------------------------------------------
-Test Failed.
-"t_usD_1M_32k" end time: Sep 28 14:42 CST
-"t_usD_1M_32k" time elapsed: 00:00:06
-----------------------------------------------------------
-
-78/164 Testing: t_usD_128K_8K
-78/164 Test: t_usD_128K_8K
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-usDd" "128K" "-w" "8K"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_usD_128K_8K" start time: Sep 28 14:42 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:19884... done.
-DEBUG: Inbound stream from 169.254.144.1:19884 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyError in _rt_connect
-<end of output>
-Test time =   6.42 sec
-----------------------------------------------------------
-Test Failed.
-"t_usD_128K_8K" end time: Sep 28 14:42 CST
-"t_usD_128K_8K" time elapsed: 00:00:06
-----------------------------------------------------------
-
-79/164 Testing: t_usD_16_1
-79/164 Test: t_usD_16_1
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-usDd" "16" "-w" "1"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_usD_16_1" start time: Sep 28 14:42 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:28973... done.
-DEBUG: Inbound stream from 169.254.144.1:28973 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyError in _rt_connect
-<end of output>
-Test time =   6.40 sec
-----------------------------------------------------------
-Test Failed.
-"t_usD_16_1" end time: Sep 28 14:42 CST
-"t_usD_16_1" time elapsed: 00:00:06
-----------------------------------------------------------
-
-80/164 Testing: t_usD_32K_d
-80/164 Test: t_usD_32K_d
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-usDd" "32K"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_usD_32K_d" start time: Sep 28 14:42 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:21027... done.
-DEBUG: Inbound stream from 169.254.144.1:21027 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyError in _rt_connect
-<end of output>
-Test time =   6.40 sec
-----------------------------------------------------------
-Test Failed.
-"t_usD_32K_d" end time: Sep 28 14:42 CST
-"t_usD_32K_d" time elapsed: 00:00:06
-----------------------------------------------------------
-
-81/164 Testing: t_ucS_128K_8K_l
-81/164 Test: t_ucS_128K_8K_l
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-ucSd" "128K" "-w" "8K" "-l" "0.1"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_ucS_128K_8K_l" start time: Sep 28 14:42 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:25082... done.
-DEBUG: Inbound stream from 169.254.144.1:25082 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyError in _rt_connect
-<end of output>
-Test time =   6.46 sec
-----------------------------------------------------------
-Test Failed.
-"t_ucS_128K_8K_l" end time: Sep 28 14:42 CST
-"t_ucS_128K_8K_l" time elapsed: 00:00:06
-----------------------------------------------------------
-
-82/164 Testing: t_ucS_128K_8K_L
-82/164 Test: t_ucS_128K_8K_L
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-ucSd" "128K" "-w" "8K" "-L" "0.1"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_ucS_128K_8K_L" start time: Sep 28 14:42 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:14668... done.
-DEBUG: Inbound stream from 169.254.144.1:14668 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyError in _rt_connect
-<end of output>
-Test time =   6.38 sec
-----------------------------------------------------------
-Test Failed.
-"t_ucS_128K_8K_L" end time: Sep 28 14:42 CST
-"t_ucS_128K_8K_L" time elapsed: 00:00:06
-----------------------------------------------------------
-
-83/164 Testing: t_ucS_128K_8K_lL
-83/164 Test: t_ucS_128K_8K_lL
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-ucSd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_ucS_128K_8K_lL" start time: Sep 28 14:42 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:6240... done.
-DEBUG: Inbound stream from 169.254.144.1:6240 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyError in _rt_connect
-<end of output>
-Test time =   6.43 sec
-----------------------------------------------------------
-Test Failed.
-"t_ucS_128K_8K_lL" end time: Sep 28 14:42 CST
-"t_ucS_128K_8K_lL" time elapsed: 00:00:06
-----------------------------------------------------------
-
-84/164 Testing: t_ucR_128K_8K_l
-84/164 Test: t_ucR_128K_8K_l
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-ucRd" "128K" "-w" "8K" "-l" "0.1"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_ucR_128K_8K_l" start time: Sep 28 14:42 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:29566... done.
-DEBUG: Inbound stream from 169.254.144.1:29566 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyDEBUG: Waiting for clean shutdown... done.
-<end of output>
-Test time =  10.04 sec
-----------------------------------------------------------
-Test Failed.
-"t_ucR_128K_8K_l" end time: Sep 28 14:43 CST
-"t_ucR_128K_8K_l" time elapsed: 00:00:10
-----------------------------------------------------------
-
-85/164 Testing: t_ucR_128K_8K_L
-85/164 Test: t_ucR_128K_8K_L
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-ucRd" "128K" "-w" "8K" "-L" "0.1"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_ucR_128K_8K_L" start time: Sep 28 14:43 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:27025... done.
-DEBUG: Inbound stream from 169.254.144.1:27025 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyDEBUG: Waiting for clean shutdown... done.
-<end of output>
-Test time =  10.03 sec
-----------------------------------------------------------
-Test Failed.
-"t_ucR_128K_8K_L" end time: Sep 28 14:43 CST
-"t_ucR_128K_8K_L" time elapsed: 00:00:10
-----------------------------------------------------------
-
-86/164 Testing: t_ucR_128K_8K_lL
-86/164 Test: t_ucR_128K_8K_lL
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-ucRd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_ucR_128K_8K_lL" start time: Sep 28 14:43 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:14598... done.
-DEBUG: Inbound stream from 169.254.144.1:14598 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyDEBUG: Waiting for clean shutdown... done.
-<end of output>
-Test time =  10.04 sec
-----------------------------------------------------------
-Test Failed.
-"t_ucR_128K_8K_lL" end time: Sep 28 14:43 CST
-"t_ucR_128K_8K_lL" time elapsed: 00:00:10
-----------------------------------------------------------
-
-87/164 Testing: t_ucD_128K_8K_l
-87/164 Test: t_ucD_128K_8K_l
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-ucDd" "128K" "-w" "8K" "-l" "0.1"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_ucD_128K_8K_l" start time: Sep 28 14:43 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:17978... done.
-DEBUG: Inbound stream from 169.254.144.1:17978 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyError in _rt_connect
-<end of output>
-Test time =   6.40 sec
-----------------------------------------------------------
-Test Failed.
-"t_ucD_128K_8K_l" end time: Sep 28 14:43 CST
-"t_ucD_128K_8K_l" time elapsed: 00:00:06
-----------------------------------------------------------
-
-88/164 Testing: t_ucD_128K_8K_L
-88/164 Test: t_ucD_128K_8K_L
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-ucDd" "128K" "-w" "8K" "-L" "0.1"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_ucD_128K_8K_L" start time: Sep 28 14:43 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:11833... done.
-DEBUG: Inbound stream from 169.254.144.1:11833 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyError in _rt_connect
-<end of output>
-Test time =   6.41 sec
-----------------------------------------------------------
-Test Failed.
-"t_ucD_128K_8K_L" end time: Sep 28 14:43 CST
-"t_ucD_128K_8K_L" time elapsed: 00:00:06
-----------------------------------------------------------
-
-89/164 Testing: t_ucD_128K_8K_lL
-89/164 Test: t_ucD_128K_8K_lL
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-ucDd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_ucD_128K_8K_lL" start time: Sep 28 14:43 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:11750... done.
-DEBUG: Inbound stream from 169.254.144.1:11750 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyError in _rt_connect
-<end of output>
-Test time =   6.41 sec
-----------------------------------------------------------
-Test Failed.
-"t_ucD_128K_8K_lL" end time: Sep 28 14:43 CST
-"t_ucD_128K_8K_lL" time elapsed: 00:00:06
-----------------------------------------------------------
-
-90/164 Testing: t_usS_128K_8K_l
-90/164 Test: t_usS_128K_8K_l
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-usSd" "128K" "-w" "8K" "-l" "0.1"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_usS_128K_8K_l" start time: Sep 28 14:43 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:1539... done.
-DEBUG: Inbound stream from 169.254.144.1:1539 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyDEBUG: Waiting for clean shutdown... done.
-<end of output>
-Test time =  10.04 sec
-----------------------------------------------------------
-Test Failed.
-"t_usS_128K_8K_l" end time: Sep 28 14:43 CST
-"t_usS_128K_8K_l" time elapsed: 00:00:10
-----------------------------------------------------------
-
-91/164 Testing: t_usS_128K_8K_L
-91/164 Test: t_usS_128K_8K_L
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-usSd" "128K" "-w" "8K" "-L" "0.1"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_usS_128K_8K_L" start time: Sep 28 14:43 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:32419... done.
-DEBUG: Inbound stream from 169.254.144.1:32419 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyDEBUG: Waiting for clean shutdown... done.
-<end of output>
-Test time =  10.04 sec
-----------------------------------------------------------
-Test Failed.
-"t_usS_128K_8K_L" end time: Sep 28 14:44 CST
-"t_usS_128K_8K_L" time elapsed: 00:00:10
-----------------------------------------------------------
-
-92/164 Testing: t_usS_128K_8K_lL
-92/164 Test: t_usS_128K_8K_lL
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-usSd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_usS_128K_8K_lL" start time: Sep 28 14:44 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:19764... done.
-DEBUG: Inbound stream from 169.254.144.1:19764 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyDEBUG: Waiting for clean shutdown... done.
-<end of output>
-Test time =  10.04 sec
-----------------------------------------------------------
-Test Failed.
-"t_usS_128K_8K_lL" end time: Sep 28 14:44 CST
-"t_usS_128K_8K_lL" time elapsed: 00:00:10
-----------------------------------------------------------
-
-93/164 Testing: t_usR_128K_8K_l
-93/164 Test: t_usR_128K_8K_l
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-usRd" "128K" "-w" "8K" "-l" "0.1"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_usR_128K_8K_l" start time: Sep 28 14:44 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:2229... done.
-DEBUG: Inbound stream from 169.254.144.1:2229 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyError in _rt_connect
-<end of output>
-Test time =   6.42 sec
-----------------------------------------------------------
-Test Failed.
-"t_usR_128K_8K_l" end time: Sep 28 14:44 CST
-"t_usR_128K_8K_l" time elapsed: 00:00:06
-----------------------------------------------------------
-
-94/164 Testing: t_usR_128K_8K_L
-94/164 Test: t_usR_128K_8K_L
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-usRd" "128K" "-w" "8K" "-L" "0.1"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_usR_128K_8K_L" start time: Sep 28 14:44 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:23508... done.
-DEBUG: Inbound stream from 169.254.144.1:23508 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyError in _rt_connect
-<end of output>
-Test time =   6.43 sec
-----------------------------------------------------------
-Test Failed.
-"t_usR_128K_8K_L" end time: Sep 28 14:44 CST
-"t_usR_128K_8K_L" time elapsed: 00:00:06
-----------------------------------------------------------
-
-95/164 Testing: t_usR_128K_8K_lL
-95/164 Test: t_usR_128K_8K_lL
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-usRd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_usR_128K_8K_lL" start time: Sep 28 14:44 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:13919... done.
-DEBUG: Inbound stream from 169.254.144.1:13919 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyError in _rt_connect
-<end of output>
-Test time =   6.41 sec
-----------------------------------------------------------
-Test Failed.
-"t_usR_128K_8K_lL" end time: Sep 28 14:44 CST
-"t_usR_128K_8K_lL" time elapsed: 00:00:06
-----------------------------------------------------------
-
-96/164 Testing: t_usD_128K_8K_l
-96/164 Test: t_usD_128K_8K_l
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-usDd" "128K" "-w" "8K" "-l" "0.1"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_usD_128K_8K_l" start time: Sep 28 14:44 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:26388... done.
-DEBUG: Inbound stream from 169.254.144.1:26388 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyError in _rt_connect
-<end of output>
-Test time =   6.41 sec
-----------------------------------------------------------
-Test Failed.
-"t_usD_128K_8K_l" end time: Sep 28 14:44 CST
-"t_usD_128K_8K_l" time elapsed: 00:00:06
-----------------------------------------------------------
-
-97/164 Testing: t_usD_128K_8K_L
-97/164 Test: t_usD_128K_8K_L
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-usDd" "128K" "-w" "8K" "-L" "0.1"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_usD_128K_8K_L" start time: Sep 28 14:44 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:15975... done.
-DEBUG: Inbound stream from 169.254.144.1:15975 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyError in _rt_connect
-<end of output>
-Test time =   6.43 sec
-----------------------------------------------------------
-Test Failed.
-"t_usD_128K_8K_L" end time: Sep 28 14:44 CST
-"t_usD_128K_8K_L" time elapsed: 00:00:06
-----------------------------------------------------------
-
-98/164 Testing: t_usD_128K_8K_lL
-98/164 Test: t_usD_128K_8K_lL
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-usDd" "128K" "-w" "8K" "-l" "0.1" "-L" "0.1"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_usD_128K_8K_lL" start time: Sep 28 14:44 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.1:28442... done.
-DEBUG: Inbound stream from 169.254.144.1:28442 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyError in _rt_connect
-<end of output>
-Test time =   6.42 sec
-----------------------------------------------------------
-Test Failed.
-"t_usD_128K_8K_lL" end time: Sep 28 14:44 CST
-"t_usD_128K_8K_lL" time elapsed: 00:00:06
-----------------------------------------------------------
-
-99/164 Testing: t_ipv4_client_send
-99/164 Test: t_ipv4_client_send
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-icS"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_ipv4_client_send" start time: Sep 28 14:44 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:22130... done.
-DEBUG: Inbound stream from 169.254.145.9:22130 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyDEBUG: Waiting for clean shutdown... done.
-<end of output>
-Test time =  10.04 sec
-----------------------------------------------------------
-Test Failed.
-"t_ipv4_client_send" end time: Sep 28 14:45 CST
-"t_ipv4_client_send" time elapsed: 00:00:10
-----------------------------------------------------------
-
-100/164 Testing: t_ipv4_server_send
-100/164 Test: t_ipv4_server_send
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-isS"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_ipv4_server_send" start time: Sep 28 14:45 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:16463... done.
-DEBUG: Inbound stream from 169.254.144.9:16463 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyDEBUG: Waiting for clean shutdown... done.
-<end of output>
-Test time =  10.05 sec
-----------------------------------------------------------
-Test Failed.
-"t_ipv4_server_send" end time: Sep 28 14:45 CST
-"t_ipv4_server_send" time elapsed: 00:00:10
-----------------------------------------------------------
-
-101/164 Testing: t_ipv4_client_recv
-101/164 Test: t_ipv4_client_recv
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-icR"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_ipv4_client_recv" start time: Sep 28 14:45 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:7498... done.
-DEBUG: Inbound stream from 169.254.145.9:7498 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyDEBUG: Waiting for clean shutdown... done.
-<end of output>
-Test time =  10.03 sec
-----------------------------------------------------------
-Test Failed.
-"t_ipv4_client_recv" end time: Sep 28 14:45 CST
-"t_ipv4_client_recv" time elapsed: 00:00:10
-----------------------------------------------------------
-
-102/164 Testing: t_ipv4_server_recv
-102/164 Test: t_ipv4_server_recv
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-isR"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_ipv4_server_recv" start time: Sep 28 14:45 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:18812... done.
-DEBUG: Inbound stream from 169.254.144.9:18812 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyError in _rt_connect
-<end of output>
-Test time =   6.42 sec
-----------------------------------------------------------
-Test Failed.
-"t_ipv4_server_recv" end time: Sep 28 14:45 CST
-"t_ipv4_server_recv" time elapsed: 00:00:06
-----------------------------------------------------------
-
-103/164 Testing: t_ipv4_client_dupl
-103/164 Test: t_ipv4_client_dupl
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-icD"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_ipv4_client_dupl" start time: Sep 28 14:45 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:11004... done.
-DEBUG: Inbound stream from 169.254.145.9:11004 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyError in _rt_connect
-<end of output>
-Test time =   6.43 sec
-----------------------------------------------------------
-Test Failed.
-"t_ipv4_client_dupl" end time: Sep 28 14:45 CST
-"t_ipv4_client_dupl" time elapsed: 00:00:06
-----------------------------------------------------------
-
-104/164 Testing: t_ipv4_server_dupl
-104/164 Test: t_ipv4_server_dupl
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-isD"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_ipv4_server_dupl" start time: Sep 28 14:45 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.144.9:6191... done.
-DEBUG: Inbound stream from 169.254.144.9:6191 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyError in _rt_connect
-<end of output>
-Test time =   6.42 sec
-----------------------------------------------------------
-Test Failed.
-"t_ipv4_server_dupl" end time: Sep 28 14:45 CST
-"t_ipv4_server_dupl" time elapsed: 00:00:06
-----------------------------------------------------------
-
-105/164 Testing: t_icS_1M_32k
-105/164 Test: t_icS_1M_32k
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-icSd" "1M" "-w" "32K"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_icS_1M_32k" start time: Sep 28 14:45 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:19857... done.
-DEBUG: Inbound stream from 169.254.145.9:19857 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyError in _rt_connect
-<end of output>
-Test time =   6.48 sec
-----------------------------------------------------------
-Test Failed.
-"t_icS_1M_32k" end time: Sep 28 14:45 CST
-"t_icS_1M_32k" time elapsed: 00:00:06
-----------------------------------------------------------
-
-106/164 Testing: t_icS_128K_8K
-106/164 Test: t_icS_128K_8K
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-icSd" "128K" "-w" "8K"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_icS_128K_8K" start time: Sep 28 14:45 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:30203... done.
-DEBUG: Inbound stream from 169.254.145.9:30203 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyError in _rt_connect
-<end of output>
-Test time =   6.44 sec
-----------------------------------------------------------
-Test Failed.
-"t_icS_128K_8K" end time: Sep 28 14:45 CST
-"t_icS_128K_8K" time elapsed: 00:00:06
-----------------------------------------------------------
-
-107/164 Testing: t_icS_16_1
-107/164 Test: t_icS_16_1
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-icSd" "16" "-w" "1"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_icS_16_1" start time: Sep 28 14:45 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:19244... done.
-DEBUG: Inbound stream from 169.254.145.9:19244 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyError in _rt_connect
-<end of output>
-Test time =   6.44 sec
-----------------------------------------------------------
-Test Failed.
-"t_icS_16_1" end time: Sep 28 14:46 CST
-"t_icS_16_1" time elapsed: 00:00:06
-----------------------------------------------------------
-
-108/164 Testing: t_icS_32K_d
-108/164 Test: t_icS_32K_d
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-icSd" "32K"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_icS_32K_d" start time: Sep 28 14:46 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:2607... done.
-DEBUG: Inbound stream from 169.254.145.9:2607 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyError in _rt_connect
-<end of output>
-Test time =   6.42 sec
-----------------------------------------------------------
-Test Failed.
-"t_icS_32K_d" end time: Sep 28 14:46 CST
-"t_icS_32K_d" time elapsed: 00:00:06
-----------------------------------------------------------
-
-109/164 Testing: t_icR_1M_32k
-109/164 Test: t_icR_1M_32k
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-icRd" "1M" "-w" "32K"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_icR_1M_32k" start time: Sep 28 14:46 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:27455... done.
-DEBUG: Inbound stream from 169.254.145.9:27455 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyDEBUG: Waiting for clean shutdown... done.
-<end of output>
-Test time =  10.04 sec
-----------------------------------------------------------
-Test Failed.
-"t_icR_1M_32k" end time: Sep 28 14:46 CST
-"t_icR_1M_32k" time elapsed: 00:00:10
-----------------------------------------------------------
-
-110/164 Testing: t_icR_128K_8K
-110/164 Test: t_icR_128K_8K
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-icRd" "128K" "-w" "8K"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_icR_128K_8K" start time: Sep 28 14:46 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:27608... done.
-DEBUG: Inbound stream from 169.254.145.9:27608 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyDEBUG: Waiting for clean shutdown... done.
-<end of output>
-Test time =  10.04 sec
-----------------------------------------------------------
-Test Failed.
-"t_icR_128K_8K" end time: Sep 28 14:46 CST
-"t_icR_128K_8K" time elapsed: 00:00:10
-----------------------------------------------------------
-
-111/164 Testing: t_icR_16_1
-111/164 Test: t_icR_16_1
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-icRd" "16" "-w" "1"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_icR_16_1" start time: Sep 28 14:46 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:8316... done.
-DEBUG: Inbound stream from 169.254.145.9:8316 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyDEBUG: Waiting for clean shutdown... done.
-<end of output>
-Test time =  10.02 sec
-----------------------------------------------------------
-Test Failed.
-"t_icR_16_1" end time: Sep 28 14:46 CST
-"t_icR_16_1" time elapsed: 00:00:10
-----------------------------------------------------------
-
-112/164 Testing: t_icR_32K_d
-112/164 Test: t_icR_32K_d
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-icRd" "32K"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_icR_32K_d" start time: Sep 28 14:46 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:3649... done.
-DEBUG: Inbound stream from 169.254.145.9:3649 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyDEBUG: Waiting for clean shutdown... done.
-<end of output>
-Test time =  10.03 sec
-----------------------------------------------------------
-Test Failed.
-"t_icR_32K_d" end time: Sep 28 14:46 CST
-"t_icR_32K_d" time elapsed: 00:00:10
-----------------------------------------------------------
-
-113/164 Testing: t_icD_1M_32k
-113/164 Test: t_icD_1M_32k
-Command: "/home/bolee/cs144/sponge/txrx.sh" "-icDd" "1M" "-w" "32K"
-Directory: /home/bolee/cs144/sponge/Debug
-"t_icD_1M_32k" start time: Sep 28 14:46 CST
-Output:
-----------------------------------------------------------
-DEBUG: Listening for incoming connection... DEBUG: Connecting to 169.254.145.9:33674... done.
-DEBUG: Inbound stream from 169.254.145.9:33674 finished with an error/reset.
-DEBUG: TCP connection finished uncleanlyError in _rt_connect
-<end of output>
-Test time =   6.48 sec
-----------------------------------------------------------
-Test Failed.
-"t_icD_1M_32k" end time: Sep 28 14:46 CST
-"t_icD_1M_32k" time elapsed: 00:00:06
 ----------------------------------------------------------
 
