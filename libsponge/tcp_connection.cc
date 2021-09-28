@@ -2,14 +2,6 @@
 
 #include <iostream>
 
-// Dummy implementation of a TCP connection
-
-// For Lab 4, please replace with a real implementation that passes the
-// automated checks run by `make check`.
-
-template <typename... Targs>
-void DUMMY_CODE(Targs &&... /* unused */) {}
-
 using namespace std;
 
 size_t TCPConnection::remaining_outbound_capacity() const { return _sender.stream_in().remaining_capacity(); }
@@ -19,6 +11,8 @@ size_t TCPConnection::bytes_in_flight() const { return _sender.bytes_in_flight()
 size_t TCPConnection::unassembled_bytes() const { return _receiver.unassembled_bytes(); }
 
 size_t TCPConnection::time_since_last_segment_received() const { return _time_since_last_segment_received;}
+
+bool TCPConnection::active() const { return _active; }
 
 // 由操作系统调用，接收从UDP或IP数据报中的解封装的TCPsegment
 void TCPConnection::segment_received(const TCPSegment &seg) { 
@@ -80,8 +74,6 @@ void TCPConnection::segment_received(const TCPSegment &seg) {
     send_sender_segments();
 }
 
-bool TCPConnection::active() const { return _active;}
-
 size_t TCPConnection::write(const string &data) {
     if(data.size() == 0){
         return 0;
@@ -93,6 +85,38 @@ size_t TCPConnection::write(const string &data) {
     send_sender_segments();
     return write_size;
 }
+
+// 此方法被OS周期性调用
+void TCPConnection::tick(const size_t ms_since_last_tick) {
+    if(!_active){
+        return;
+    }
+    _time_since_last_segment_received += ms_since_last_tick;
+    // 告知TCPSender过去的时间
+    _sender.tick(ms_since_last_tick);
+    // 如果连续重传的次数超过上限，则强制关闭连接
+    if(_sender.consecutive_retransmissions() > TCPConfig::MAX_RETX_ATTEMPTS){
+        unclean_shutdown();    
+    }
+    send_sender_segments();
+}
+
+// 结束向TCPConnection中写入，也就是关闭输出流（仍然允许读取输入的数据）
+void TCPConnection::end_input_stream() {
+    _sender.stream_in().end_input();
+    // 发送fin，不能保证这一次能将fin发送出去，因为接收窗口有可能空间不够，ByteStream无法全部发送出去
+    _sender.fill_window();
+    send_sender_segments();
+}
+
+// 主动连接
+void TCPConnection::connect() {
+    _sender.fill_window();
+    send_sender_segments();
+}
+
+
+
 // 对TCPSender的 _segments_out中的segment设置首部的ackno和windowsize字段，还有ACK标志位
 // 再加入到TCPConnection的 _segments_out，真正地将TCPsegment发送出去
 void TCPConnection::send_sender_segments(){
@@ -116,20 +140,6 @@ void TCPConnection::send_sender_segments(){
     // 每次发送segment后，都需要判断是否需要干净关闭连接
     clean_shutdown();
     
-}
-// 此方法被OS周期性调用
-void TCPConnection::tick(const size_t ms_since_last_tick) {
-    if(!_active){
-        return;
-    }
-    _time_since_last_segment_received += ms_since_last_tick;
-    // 告知TCPSender过去的时间
-    _sender.tick(ms_since_last_tick);
-    // 如果连续重传的次数超过上限，则强制关闭连接
-    if(_sender.consecutive_retransmissions() > TCPConfig::MAX_RETX_ATTEMPTS){
-        unclean_shutdown();    
-    }
-    send_sender_segments();
 }
 // 不干净的关闭，直接强制关闭连接
 // 将输入输出流设置为错误状态
@@ -167,20 +177,6 @@ void TCPConnection::clean_shutdown(){
         }
     }
 }
-// 结束向TCPConnection中写入，也就是关闭输出流（仍然允许读取输入的数据）
-void TCPConnection::end_input_stream() {
-    _sender.stream_in().end_input();
-    // 发送fin，不能保证这一次能将fin发送出去，因为接收窗口有可能空间不够，ByteStream无法全部发送出去
-    _sender.fill_window();
-    send_sender_segments();
-}
-
-// 主动连接
-void TCPConnection::connect() {
-    _sender.fill_window();
-    send_sender_segments();
-}
-
 TCPConnection::~TCPConnection() {
     try {
         if (active()) {
@@ -193,3 +189,4 @@ TCPConnection::~TCPConnection() {
         std::cerr << "Exception destructing TCP FSM: " << e.what() << std::endl;
     }
 }
+
