@@ -30,7 +30,7 @@ void TCPConnection::segment_received(const TCPSegment &seg) {
             return;
         }
         _receiver.segment_received(seg);
-        // 收到对方的syn，就发送SYN与对方建立连接，处于SYN_RECV状态
+        // 收到对方的syn，就发送SYN + ACK与对方建立连接，处于SYN_RECV状态
         // 三次握手的阶段二
         connect();
         return;
@@ -109,7 +109,7 @@ void TCPConnection::end_input_stream() {
     send_sender_segments();
 }
 
-// 主动连接
+// 主动连接，三次握手的第一阶段，进入SYN_SENT状态
 void TCPConnection::connect() {
     _sender.fill_window();
     send_sender_segments();
@@ -165,7 +165,7 @@ void TCPConnection::clean_shutdown(){
     // 如果receiver已经收到了对等端的fin，StreamReassembler为空
     if(_receiver.stream_out().input_ended()){
         // 如果sender的输出流还没有结束，即ByteStream不为空，fin还没有发送出去
-        // 那么需要在两个流结束后linger一段时间
+        // 那么不需要在两个流结束后linger一段时间
         if(!_sender.stream_in().eof()){
             _linger_after_streams_finish = false;
         // 如果sender发送了fin，且得到了确认
